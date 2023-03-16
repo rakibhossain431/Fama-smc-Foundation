@@ -171,7 +171,7 @@
 }
 
 .dropdown-item {
-  padding: 0.25rem 1.85rem;
+  padding: 0.5rem 1.85rem;
   font-weight: 400;
   font-size: 16px;
   line-height: 21px;
@@ -964,3 +964,22 @@
   }
 }
 /* choose end */
+/* enterprise start */
+.cards .card-header-title{
+  margin-bottom: 65px;
+}
+.cards .card-header-title h2{
+  margin: 0;
+}
+.cards .card .card-body{
+  padding-bottom: 84px;
+}
+.cards .card .card-body h6{
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 21px;
+  color: #000000;
+}
+.about-content .about-content-item{
+  padding: 65px 0;
+}

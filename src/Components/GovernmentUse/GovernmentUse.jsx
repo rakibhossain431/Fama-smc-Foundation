@@ -28,19 +28,19 @@ function GovernmentUse() {
                     </div>
                     <h4 class="revolution-title">Develop </h4>
                   </div>
-                  <div class="col-lg-3 col-6 pb-5">
+                  <div class="col-lg-3 col-6">
                     <div class="revolution-img mb-4">
                     <img src="./images/Governments/text.png" alt="icon" />
                     </div>
                     <h4 class="revolution-title">Test </h4>
                   </div>
-                  <div class="col-lg-3 col-6 pb-5">
+                  <div class="col-lg-3 col-6">
                     <div class="revolution-img mb-4">
                        <img src="./images/Governments/Launch.png" alt="icon" />
                     </div>
                     <h4 class="revolution-title">Launch</h4>
                   </div>
-                  <div class="col-lg-3 col-6 pb-5">
+                  <div class="col-lg-3 col-6">
                     <div class="revolution-img mb-4">
                         <img src="./images/Governments/Manage .png" alt="icon" />
                     </div>
