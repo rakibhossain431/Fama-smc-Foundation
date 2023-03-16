@@ -1,269 +1,257 @@
 import React, { useState } from "react";
+import { Link, NavLink } from "react-router-dom";
 
 const Navbar = () => {
   const [navbarToggler, setNavbarToggler] = useState(false);
+
   return (
-    <nav class="navbar navbar-dark navbar-expand-lg smc-nav header1">
-      <div class="container">
-        <a class="navbar-brand" href="#">
+    <nav className="navbar navbar-dark navbar-expand-lg smc-nav header1">
+      <div className="container">
+        <Link className="navbar-brand" to="/">
           <img src="./images/SMClogo.png" alt="" />
-        </a>
+        </Link>
         <div>
-          <button className="smc-nav-btn primary d-lg-none">Get In Touch</button>
+          <Link to="/get-in-touch">
+            <button className="d-lg-none smc-nav-btn primary">Get In Touch</button>
+          </Link>
           <button
-            class="navbar-toggler"
+            className="navbar-toggler"
             type="button"
             data-bs-target="#navbarSupportedContent"
             aria-expanded="false"
             aria-label="Toggle navigation"
             onClick={() => setNavbarToggler((prevState) => !prevState)}
           >
-            <span class="navbar-toggler-icon"></span>
+            <span className="navbar-toggler-icon"></span>
           </button>
         </div>
 
-        <div class="collapse navbar-collapse">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item dropdown">
+        <div className="collapse navbar-collapse">
+          <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+            <li className="nav-item dropdown">
               <a
-                class="nav-link dropdown-toggle"
+                className="nav-link dropdown-toggle"
                 href="#"
                 role="button"
                 data-bs-toggle="dropdown"
                 aria-expanded="false"
               >
                 Discover SMC
-                <i class="fa fa-chevron-down ms-2"></i>
+                <i className="fa fa-chevron-down ms-2"></i>
               </a>
-              <ul class="dropdown-menu">
+              <ul className="dropdown-menu">
                 <li>
-                  <a class="dropdown-item" href="#">
-                  Consumers 
-                  </a>
+                  <NavLink className="dropdown-item" to="/">
+                    Enterprise
+                  </NavLink>
                 </li>
                 <li>
-                  <a class="dropdown-item" href="#">
-                  Enterprise
-                  </a>
-                </li>
-                <li>
-                  <a class="dropdown-item" href="#">
-                  Governments
-                  </a>
-                </li>
-                <li>
-                  <a class="dropdown-item" href="#">
-                  Developers
-                  </a>
-                </li>
-                <li>
-                  <a class="dropdown-item" href="#">
-                  Partners
-                  </a>
+                  <NavLink className="dropdown-item" to="/government">
+                    Governments
+                  </NavLink>
                 </li>
               </ul>
             </li>
-            <li class="nav-item dropdown">
+            <li className="nav-item dropdown">
               <a
-                class="nav-link dropdown-toggle"
+                className="nav-link dropdown-toggle"
                 href="#"
                 role="button"
                 data-bs-toggle="dropdown"
                 aria-expanded="false"
               >
                 SMC Solutions
-                <i class="fa fa-chevron-down ms-2"></i>
+                <i className="fa fa-chevron-down ms-2"></i>
               </a>
-              <ul class="dropdown-menu">
+              <ul className="dropdown-menu">
                 <li>
-                  <a class="dropdown-item" href="#">
-                  SMC NFT
-                  </a>
+                  <NavLink className="dropdown-item" to="/nft">
+                    SMC NFT
+                  </NavLink>
                 </li>
                 <li>
-                  <a class="dropdown-item" href="#">
-                  SMC Wallet
-                  </a>
+                  <NavLink className="dropdown-item" to="/wallet">
+                    SMC Wallet
+                  </NavLink>
                 </li>
                 <li>
-                  <a class="dropdown-item" href="#">
-                  SMC Coin
-                  </a>
+                  <NavLink className="dropdown-item" to="/coin">
+                    SMC Coin
+                  </NavLink>
                 </li>
               </ul>
             </li>
-            <li class="nav-item dropdown">
+            <li className="nav-item dropdown">
               <a
-                class="nav-link dropdown-toggle"
+                className="nav-link dropdown-toggle"
                 href="#"
                 role="button"
                 data-bs-toggle="dropdown"
                 aria-expanded="false"
               >
                 About SMC Labs
-                <i class="fa fa-chevron-down ms-2"></i>
+                <i className="fa fa-chevron-down ms-2"></i>
               </a>
-              <ul class="dropdown-menu">
+              <ul className="dropdown-menu">
                 <li>
-                  <a class="dropdown-item" href="#">
-                  About Us
-                  </a>
+                  <NavLink className="dropdown-item" to="/lab">
+                    About Us
+                  </NavLink>
                 </li>
-                <li>
-                  <a class="dropdown-item" href="#">
-                  Our Journey 
+                {/* <li>
+                  <a className="dropdown-item" href="#">
+                    Our Journey
                   </a>
-                </li>
+                </li> */}
               </ul>
             </li>
-            <li class="nav-item dropdown">
+            {/* <li className="nav-item dropdown">
               <a
-                class="nav-link dropdown-toggle"
+                className="nav-link dropdown-toggle"
                 href="#"
                 role="button"
                 data-bs-toggle="dropdown"
                 aria-expanded="false"
               >
                 Help Center
-                <i class="fa fa-chevron-down ms-2"></i>
+                <i className="fa fa-chevron-down ms-2"></i>
               </a>
-              <ul class="dropdown-menu">
+              <ul className="dropdown-menu">
                 <li>
-                  <a class="dropdown-item" href="#">
-                  Careers
+                  <a className="dropdown-item" href="#">
+                    Careers
                   </a>
                 </li>
               </ul>
-            </li>
+            </li> */}
           </ul>
-          <button className="smc-nav-btn primary">Get In Touch</button>
+          <Link to="/get-in-touch">
+            <button className="smc-nav-btn primary">Get In Touch</button>
+          </Link>
         </div>
 
         <nav
           id="dropdown"
-          class={
+          className={
             navbarToggler
               ? "custom-scroll template-main-menu menu-text-dark nav-expand"
               : "template-main-menu menu-text-dark nav-collapse"
           }
         >
-          <nav class="mainmenu-nav" id="mobilemenu-popup">
-            <div class="close-btn">
-              <i
-                class="fal fa-times"
-                onClick={() => setNavbarToggler((prevState) => !prevState)}
-              ></i>
+          <nav className="mainmenu-nav" id="mobilemenu-popup">
+            <div className="close-btn">
+              <i className="fal fa-times" onClick={() => setNavbarToggler((prevState) => !prevState)}></i>
             </div>
-            <ul class="mainmenu">
-              <li class="nav-item">
-                <a class="scroll" href="index.html">
+            <ul className="mainmenu">
+              <li className="nav-item">
+                <a className="scroll" href="index.html">
                   Discover SMC
                 </a>
-                <ul class="sub-menu">
+                <ul className="sub-menu">
                   <li>
-                    <a class="sub-menu-item" href="#">
+                    <a className="sub-menu-item" href="#">
                       Consumers
                     </a>
                   </li>
                   <li>
-                    <a class="sub-menu-item" href="#">
+                    <a className="sub-menu-item" href="#">
                       Enterprise
                     </a>
                   </li>
                   <li>
-                    <a class="sub-menu-item" href="#">
+                    <a className="sub-menu-item" href="#">
                       Governments
                     </a>
                   </li>
                   <li>
-                    <a class="sub-menu-item" href="#">
+                    <a className="sub-menu-item" href="#">
                       Developers
                     </a>
                   </li>
                   <li>
-                    <a class="sub-menu-item" href="#">
+                    <a className="sub-menu-item" href="#">
                       Partners
                     </a>
                   </li>
                 </ul>
               </li>
-              <li class="nav-item">
-                <a class="scroll" href="index.html">
+              <li className="nav-item">
+                <a className="scroll" href="index.html">
                   SMC Solutions
                 </a>
-                <ul class="sub-menu">
+                <ul className="sub-menu">
                   <li>
-                    <a class="sub-menu-item" href="#">
+                    <a className="sub-menu-item" href="#">
                       Consumers
                     </a>
                   </li>
                   <li>
-                    <a class="sub-menu-item" href="#">
+                    <a className="sub-menu-item" href="#">
                       Enterprise
                     </a>
                   </li>
                   <li>
-                    <a class="sub-menu-item" href="#">
+                    <a className="sub-menu-item" href="#">
                       Governments
                     </a>
                   </li>
                   <li>
-                    <a class="sub-menu-item" href="#">
+                    <a className="sub-menu-item" href="#">
                       Developers
                     </a>
                   </li>
                   <li>
-                    <a class="sub-menu-item" href="#">
+                    <a className="sub-menu-item" href="#">
                       Partners
                     </a>
                   </li>
                 </ul>
               </li>
-              <li class="nav-item full-width">
-                <a class="scroll" href="index.html">
+              <li className="nav-item full-width">
+                <a className="scroll" href="index.html">
                   About SMC Labs
                 </a>
-                <ul class="sub-menu">
+                <ul className="sub-menu">
                   <li>
-                    <a class="sub-menu-item" href="#">
+                    <a className="sub-menu-item" href="#">
                       Consumers
                     </a>
                   </li>
                   <li>
-                    <a class="sub-menu-item" href="#">
+                    <a className="sub-menu-item" href="#">
                       Enterprise
                     </a>
                   </li>
                   <li>
-                    <a class="sub-menu-item" href="#">
+                    <a className="sub-menu-item" href="#">
                       Governments
                     </a>
                   </li>
                   <li>
-                    <a class="sub-menu-item" href="#">
+                    <a className="sub-menu-item" href="#">
                       Developers
                     </a>
                   </li>
                   <li>
-                    <a class="sub-menu-item" href="#">
+                    <a className="sub-menu-item" href="#">
                       Partners
                     </a>
                   </li>
                 </ul>
               </li>
-              <li class="nav-item full-width">
-                <a class="scroll" href="tutorial-video.html">
+              <li className="nav-item full-width">
+                <a className="scroll" href="tutorial-video.html">
                   Help Center
                 </a>
               </li>
-              <li class="nav-item">
-                <a class="scroll" href="coming-soon.html">
+              <li className="nav-item">
+                <a className="scroll" href="coming-soon.html">
                   Careers
                 </a>
               </li>
             </ul>
-            <div class="smc-mobile-btn">
-              <a href="#" class="primary">
+            <div className="smc-mobile-btn">
+              <a href="#" className="primary">
                 Get Involved
               </a>
             </div>

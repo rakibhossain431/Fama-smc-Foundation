@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -52,10 +53,7 @@ const Footer = () => {
               </a>
               <div className="footerLan py-3">
                 <span>English</span>
-                <i
-                  class="footerArrowIcon fa fa-angle-down"
-                  aria-hidden="true"
-                ></i>
+                <i class="footerArrowIcon fa fa-angle-down" aria-hidden="true"></i>
               </div>
               <div>
                 <i class="footerCopyRightIcon fas fa-copyright"></i>
@@ -67,55 +65,34 @@ const Footer = () => {
                 <div className="footerMenuList col-12 col-sm-6 col-md-6 col-lg-3">
                   <h6 className="footerHeder">Discover SMC</h6>
                   <li>
-                    <a href="#">Consumers</a>
-                  </li>
-                  <li>
                     <a href="#">Enterprise</a>
                   </li>
                   <li>
-                    <a href="#">Governments</a>
-                  </li>
-                  <li>
-                    <a href="#">Developers</a>
-                  </li>
-                  <li>
-                    <a href="#">Partners</a>
+                    <Link to="/government">Governments</Link>
                   </li>
                 </div>
                 <div className="footerMenuList col-12 col-sm-6 col-md-6 col-lg-3">
                   <h6 className="footerHeder">SMC Solutions</h6>
                   <li>
-                    <a href="#">Consumers</a>
+                    <Link to="/nft">SMC NFT</Link>
                   </li>
                   <li>
-                    <a href="#">Enterprise</a>
+                    <Link to="/wallet">SMC Wallet</Link>
                   </li>
                   <li>
-                    <a href="#">Governments</a>
+                    <Link to="/coin">SMC Coin</Link>
                   </li>
                 </div>
                 <div className="footerMenuList col-12 col-sm-6 col-md-6 col-lg-3">
                   <h6 className="footerHeder">About SMC Labs</h6>
                   <li>
-                    <a href="#">Consumers</a>
-                  </li>
-                  <li>
-                    <a href="#">Enterprise</a>
-                  </li>
-                  <li>
-                    <a href="#">Governments</a>
+                    <Link to="/lab">About Us</Link>
                   </li>
                 </div>
                 <div className="footerMenuList col-12 col-sm-6 col-md-6 col-lg-3">
                   <h6 className="footerHeder">Help Center</h6>
                   <li>
-                    <a href="#">Consumers</a>
-                  </li>
-                  <li>
-                    <a href="#">Enterprise</a>
-                  </li>
-                  <li>
-                    <a Link="#">Governments</a>
+                    <h6 className="footerHeder">Careers</h6>
                   </li>
                 </div>
               </div>

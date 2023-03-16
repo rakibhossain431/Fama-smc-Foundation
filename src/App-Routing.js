@@ -4,6 +4,7 @@ import Coin from "./Pages/Coin/Coin";
 import GetInTouch from "./Pages/GetInTouch/GetInTouch";
 import Government from "./Pages/Government/Government";
 import Home from "./Pages/Home/Home";
+import Labs from "./Pages/Labs/Labs";
 import Nft from "./Pages/Nft/Nft";
 import SMCWallet from "./Pages/SMCWallet/SMCWallet";
 
@@ -33,8 +34,12 @@ const router = createBrowserRouter([
         element: <Nft />,
       },
       {
-        path: "Government",
+        path: "government",
         element: <Government />,
+      },
+      {
+        path: "lab",
+        element: <Labs />,
       },
     ],
   },

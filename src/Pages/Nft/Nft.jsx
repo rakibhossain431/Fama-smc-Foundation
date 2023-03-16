@@ -25,7 +25,7 @@ export default function Nft() {
                 <h6>Fastest NFT Minting</h6>
                 <p>SMC is the fastest when it comes to minting new NFT’s</p>
               </div>
-              <button type="button" class="smc-btn mt-5">
+              <button type="button" class="smc-nav-btn primary mt-5">
                 Learn More
               </button>
             </div>
@@ -116,64 +116,19 @@ export default function Nft() {
 
       <section class="download-section">
         <div class="container download-body">
-          <div class="row">
+          <div class="align-items-center row">
             <div class="col-md-6">
               <h4>Download our App</h4>
               <p>Over 100,000 Downloads and Rated 4.5++ on Average</p>
             </div>
             <div class="col-md-6 d-flex align-items-start justify-content-center gap-4">
               <a href="#">
-                <img src="images/icons/appleStore.png" alt="apple store" />
+                <img src="./images/Icon/appleStore.png" alt="apple store" />
               </a>
               <a href="#">
-                <img src="images/icons/playStore.png" alt="play store" />
+                <img src="./images/Icon/playStore.png" alt="play store" />
               </a>
             </div>
-          </div>
-        </div>
-      </section>
-
-      <section class="social-section">
-        <div class="container">
-          <div class="row">
-            <ul class="social">
-              <li class="social-link">
-                <a href="#">
-                  <i class="fa-brands fa-twitter"></i>
-                  Twitter
-                </a>
-              </li>
-              <li class="social-link">
-                <a href="#">
-                  <i class="fa-brands fa-telegram"></i>
-                  Telegram
-                </a>
-              </li>
-              <li class="social-link">
-                <a href="#">
-                  <i class="fa-brands fa-discord"></i>
-                  Discord
-                </a>
-              </li>
-              <li class="social-link">
-                <a href="#">
-                  <i class="fa-brands fa-github"></i>
-                  GitHub
-                </a>
-              </li>
-              <li class="social-link">
-                <a href="#">
-                  <i class="fa-brands fa-reddit"></i>
-                  Reddit
-                </a>
-              </li>
-              <li class="social-link">
-                <a href="#">
-                  <i class="fa-brands fa-instagram"></i>
-                  Instagram
-                </a>
-              </li>
-            </ul>
           </div>
         </div>
       </section>

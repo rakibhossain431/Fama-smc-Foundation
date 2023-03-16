@@ -194,8 +194,8 @@ li {
   padding-right: 15px;
 } */
 
-.gutter-reset{
-    --bs-gutter-x: 0 !important;
+.gutter-reset {
+  --bs-gutter-x: 0 !important;
 }
 
 .row-15 {
@@ -448,3 +448,10 @@ li {
 }
 
 /* Banner */
+
+.dropdown-item.active,
+.dropdown-item:active {
+  color: black;
+  text-decoration: none;
+  background-color: rgba(247, 200, 69, 1);
+}
