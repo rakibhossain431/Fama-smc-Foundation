@@ -8,39 +8,31 @@ function SmcRevolution() {
         <div className="row d-flex">
           <div className="col-6 col-sm-6 col-md-6 col-lg-3">
             <div className="revolution-img">
-              <img src="/images/Icon/secure.png" alt="" />
+              <img src="/images/Icon/Secure.png" alt="" />
             </div>
             <h4>Secure </h4>
-            <p className="r-text mt-0">
-              The SMC Blockchain is as secure as bitcoin
-            </p>
+            <p className="r-text mt-0">The SMC Blockchain is as secure as bitcoin</p>
           </div>
           <div className="col-6 col-sm-6 col-md-6 col-lg-3">
             <div className="revolution-img">
               <img src="/images/Icon/Fast.png" alt="" />
             </div>
             <h4>Fast</h4>
-            <p className="r-text mt-0">
-              The SMC Blockchain is as secure as bitcoin
-            </p>
+            <p className="r-text mt-0">The SMC Blockchain is as secure as bitcoin</p>
           </div>
           <div className="col-6 col-sm-6 col-md-6 col-lg-3">
             <div className="revolution-img">
               <img src="/images/Icon/Scalable.png" alt="" />
             </div>
             <h4>Scalable</h4>
-            <p className="r-text mt-0">
-              Unlike any other, SMC Blockchain is infinitely scalable{" "}
-            </p>
+            <p className="r-text mt-0">Unlike any other, SMC Blockchain is infinitely scalable </p>
           </div>
           <div className="col-6 col-sm-6 col-md-6 col-lg-3">
             <div className="revolution-img">
               <img src="/images/Icon/Reliable.png" alt="" />
             </div>
             <h4>Reliable</h4>
-            <p className="r-text mt-0">
-              Network failures are impossible in the SMC Blockchain{" "}
-            </p>
+            <p className="r-text mt-0">Network failures are impossible in the SMC Blockchain </p>
           </div>
         </div>
       </div>

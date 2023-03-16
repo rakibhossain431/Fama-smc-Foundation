@@ -1,19 +1,14 @@
-import React from 'react'
-import CoinCard from '../../Components/CoinCard/CoinCard'
-import Banner from '../../Components/Shared/Banner/Banner'
-import Footer from '../../Components/Shared/Footer/Footer'
-import Navbar from '../../Components/Shared/Navbar/Navbar'
+import React from "react";
+import CoinCard from "../../Components/CoinCard/CoinCard";
+import Banner from "../../Components/Shared/Banner/Banner";
 
 function Coin() {
-    return (
-        <>
-            <Navbar />
-            <Banner />
-            <CoinCard />
-            <Footer />
-         
-        </>
-    )
+  return (
+    <>
+      <Banner />
+      <CoinCard />
+    </>
+  );
 }
 
-export default Coin
+export default Coin;

@@ -1,18 +1,14 @@
-import React from 'react'
-import Footer from '../../Components/Shared/Footer/Footer';
+import React from "react";
+import Contact from "../../Components/Contact/Contact";
 import Banner from "../../Components/Shared/Banner/Banner";
-import Navbar from '../../Components/Shared/Navbar/Navbar';
-import Contact from '../../Components/Contact/Contact';
 
 function GetInTouch() {
-    return (
-        <>
-            <Navbar />
-            <Banner />
-            <Contact />
-            <Footer />
-        </>
-    )
+  return (
+    <>
+      <Banner />
+      <Contact />
+    </>
+  );
 }
 
-export default GetInTouch
+export default GetInTouch;
