@@ -65,8 +65,7 @@
 /* Consumer Section */
 
 .consumer-bg {
-  background: rgba(255, 225, 128, 1)
-    url("../../../public/images/Background/consumer.png") no-repeat right;
+  background: rgba(255, 225, 128, 1) url("../../../public/images/Background/consumer.png") no-repeat right;
 }
 
 .consumer-m-title {
@@ -530,7 +529,7 @@
 /* ****************************
 ===========Contact============
 *****************************/
-.contact{
+.contact {
   background-image: url(../../../public/images/Contact/Group\ 235.png);
   width: 100%;
   height: 100%;
@@ -540,61 +539,60 @@
   margin: 75px 0 105px 0;
   /* background-color: black; */
 }
-.contact-left .contact-left-content .contact-left-item{
+.contact-left .contact-left-content .contact-left-item {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
-.contact-left .contact-left-content .contact-left-item h4{
+.contact-left .contact-left-content .contact-left-item h4 {
   margin: 17px 0 5px 0;
 }
-.contact-left .contact-left-content .contact-left-item span{
+.contact-left .contact-left-content .contact-left-item span {
   font-weight: 400;
   font-size: 16px;
   line-height: 21px;
   color: #000000;
 }
-.contact-right .contact-right-content h3{
+.contact-right .contact-right-content h3 {
   font-weight: 700;
   font-size: 32px;
   line-height: 42px;
   color: #000000;
 }
-.contact-right .contact-right-content p{
+.contact-right .contact-right-content p {
   font-weight: 400;
   font-size: 18px;
   line-height: 28px;
   color: #000000;
   margin-bottom: 25px;
-
 }
-.contact-btn button{
+.contact-btn button {
   font-weight: 400;
   font-size: 18px;
   line-height: 23px;
   color: #000000;
   border: none;
 }
-.contact-btn button:hover{
+.contact-btn button:hover {
   background-color: #000000;
   color: var(--button_color);
 }
-.contact-list input{
+.contact-list input {
   padding: 12px;
 }
 
 /* ****************************
 ===========labs============
 *****************************/
-.about-labs{
+.about-labs {
   margin: 60px 0;
 }
-.about-content-left .about-content-left-img img{
+.about-content-left .about-content-left-img img {
   width: 100%;
   height: 100%;
 }
-.about-content-left .about-content-left-img .smc-logo img{
+.about-content-left .about-content-left-img .smc-logo img {
   width: 50px;
   height: 50px;
   position: absolute;
@@ -606,68 +604,217 @@
   justify-content: center;
   align-items: center;
 }
-.about-content-right .about-content-right-text h3{
+.about-content-right .about-content-right-text h3 {
   font-weight: 700;
   font-size: 32px;
   line-height: 42px;
   color: #000000;
 }
-.about-content-right .about-content-right-text p{
+.about-content-right .about-content-right-text p {
   font-weight: 400;
   font-size: 16px;
   line-height: 21px;
   color: #000000;
 }
-.brand-card-content .brand-card-title{
+.brand-card-content .brand-card-title {
   font-weight: 700;
   font-size: 48px;
   line-height: 62px;
   color: #000000;
-
 }
-.brand-card-content p{
+.brand-card-content p {
   font-weight: 400;
   font-size: 16px;
   line-height: 21px;
   color: #000000;
 }
-.all-brands-card{
+.all-brands-card {
   border: none;
 }
-.all-brands-card .smc-logo img{
+.all-brands-card .smc-logo img {
   position: absolute;
   bottom: 17px;
   left: 40%;
 }
-.all-brands-card-body{
+.all-brands-card-body {
   padding: 1rem 0;
 }
-.all-brands-card-body h6{
+.all-brands-card-body h6 {
   font-weight: 400;
   font-size: 14px;
   line-height: 25px;
   color: #333333;
 }
-.all-brands-card-body p{
+.all-brands-card-body p {
   font-weight: 400;
   font-size: 20px;
   line-height: 25px;
   color: #333333;
-
 }
 /* ****************************
 ===========Coin============
 *****************************/
-.coin-card-title{
+.coin-card-title {
   font-weight: 700;
   font-size: 32px;
   line-height: 42px;
   color: #000000;
-
 }
-.coin-card-subTitle{
+.coin-card-subTitle {
   font-weight: 400;
   font-size: 18px;
   line-height: 28px;
   color: #000000;
 }
+
+/* SMC-Wallet-Special Start */
+
+.wallet-section {
+  padding-top: 65px;
+  padding-bottom: 65px;
+  text-align: center;
+}
+
+.wallet-section p {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  margin-top: 16px;
+}
+
+.wallet-card {
+  padding-top: 58px;
+}
+
+.box h4 {
+  padding-top: 42px;
+}
+
+.box p {
+  max-width: 249px;
+  margin: 0 auto;
+  font-size: 16px;
+  line-height: 21px;
+}
+
+/* SMC-Wallet-Special End */
+
+/* Buy-Crypto & details Start */
+
+.crypto-section,
+.exchange-section,
+.privacyAndSecurity-section,
+.nft-wallet-section {
+  padding-top: 65px;
+  padding-bottom: 65px;
+}
+.crypto-body,
+.privacyAndSecurity-body,
+.exchange-body,
+.nft-wallet-body {
+  max-width: 1080px;
+  margin: 0 auto;
+}
+
+.crypto-details p,
+.privacyAndSecurity-details p,
+.exchange-details p,
+.nft-wallet-details p {
+  max-width: 356px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 25px;
+}
+
+.crypto-details img,
+.exchange-details img,
+.nft-wallet-details img,
+.privacyAndSecurity-section img {
+  max-width: 100%;
+  margin-top: 35px;
+  margin-bottom: 35px;
+}
+
+.privacyAndSecurity-section img {
+  border-radius: 35px;
+}
+
+/* Buy-Crypto & details End */
+
+/* Tools Section Start */
+
+.tools-section {
+  padding-top: 65px;
+  padding-bottom: 65px;
+  text-align: center;
+}
+
+.tools-section p {
+  max-width: 445px;
+  margin: 0 auto;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+}
+
+.tools-poster {
+  max-width: 1020px;
+  padding-top: 60px;
+  margin: 0 auto;
+}
+
+.tools-poster img {
+  width: 100%;
+}
+
+/* Tools Section End */
+
+/* NFT Section Start */
+
+.nft-section,
+.getting-start-section {
+  padding-top: 65px;
+  padding-bottom: 65px;
+  background-color: rgba(255, 225, 128, 1);
+}
+
+.nft-body {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.nft-bg,
+.getting-start-bg {
+  /* width: 468px; */
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.nft-details,
+.getting-start-details {
+  max-width: 480px;
+  margin-left: auto;
+  margin-bottom: 70px;
+}
+
+.nft-details h3,
+.getting-start-details h3 {
+  margin-bottom: 11px;
+}
+
+.nft-details p,
+.getting-start-details p {
+  padding-top: 10px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21px;
+}
+
+.nft-img img,
+.getting-start-img img {
+  /* max-width: 541px; */
+  width: 100%;
+}
+
+/* NFT Section End */
