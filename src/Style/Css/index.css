@@ -96,8 +96,8 @@
   text-align: center;
 }
 .revolution-img {
-  width: 60px;
-  height: 85px;
+  width: 100px;
+  height: 100px;
   margin: auto;
 }
 @media only screen and (max-width: 767px) {
@@ -166,9 +166,16 @@
   padding-bottom: 15px;
   border-radius: 15px;
 }
+.dropdown-menu li {
+  padding: 7px 0;
+}
 
 .dropdown-item {
   padding: 0.25rem 1.85rem;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  color: #000000;
 }
 
 .navbar-toggler {
@@ -654,6 +661,39 @@
 /* ****************************
 ===========Coin============
 *****************************/
+.white-coin {
+  margin: 95px 0;
+}
+.w-coin-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin: auto 0;
+}
+.w-coin-left h1 {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 50px;
+  color: #000000;
+}
+.w-coin-left p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 25px;
+  color: #000000;
+  padding: 20px 0;
+}
+.w-coin-left .w-coin-btn .smc-btn {
+  border: none;
+}
+.w-coin-left .w-coin-btn .smc-btn:hover {
+  background: #000000;
+  color: #f7c845;
+}
+.w-coin-right .w-coin-img img {
+  width: 100%;
+  height: 100%;
+}
 .coin-card-title {
   font-weight: 700;
   font-size: 32px;
@@ -818,3 +858,109 @@
 }
 
 /* NFT Section End */
+/* CBDS start */
+.smc-cbds {
+  padding: 100px 0 41px 0;
+  background-color: #f5f5f5;
+}
+.cbds-subtitle {
+  font-size: 24px;
+  font-weight: 400;
+}
+.cbds-link {
+  font-size: 18px;
+  font-weight: 400;
+  padding: 8px 30px;
+  display: inline-block;
+  background: #f7c845;
+  border-radius: 5px;
+  color: black;
+}
+.cbds-link:hover {
+  background-color: black;
+  color: #f9f293;
+}
+@media only screen and (max-width: 991px) {
+  .cbds {
+    flex-direction: column;
+  }
+}
+@media only screen and (max-width: 570px) {
+  .cbds-subtitle {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+  }
+}
+@media only screen and (max-width: 570px) {
+  .cbds-link {
+    width: 100%;
+  }
+}
+/* CBDS end */
+/* smc-service start */
+.smc-service {
+  padding-bottom: 195px;
+  background-color: #f5f5f5;
+}
+.revolution {
+  text-align: center;
+  background: #f9f9f9;
+  box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.11);
+  border-radius: 5px;
+}
+@media only screen and (max-width: 570px) {
+  .revolution-title {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 31px;
+  }
+}
+/* smc-service end */
+/* information start */
+.smc-information {
+  margin: 65px;
+}
+.info-subtitle {
+  text-align: center;
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 400;
+  margin-bottom: 45px;
+}
+.info-box {
+  padding: 25px 56px;
+  background-color: #ffe180;
+}
+.info-box p {
+  font-size: 12px;
+  line-height: 15px;
+  font-weight: 400;
+}
+.info {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 16px;
+}
+/* information end */
+/* choose start */
+
+.choose-title {
+  margin-bottom: 90px;
+}
+.choose-box {
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 71px;
+}
+@media only screen and (max-width: 991px) {
+  .choose-box {
+    justify-content: start;
+  }
+}
+@media only screen and (max-width: 570px) {
+  .choose-box {
+    justify-content: start;
+  }
+}
+/* choose end */

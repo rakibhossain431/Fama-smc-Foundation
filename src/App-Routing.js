@@ -2,6 +2,7 @@ import { createBrowserRouter } from "react-router-dom";
 import Layout from "./Layout/Layout";
 import Coin from "./Pages/Coin/Coin";
 import GetInTouch from "./Pages/GetInTouch/GetInTouch";
+import Government from "./Pages/Government/Government";
 import Home from "./Pages/Home/Home";
 import Nft from "./Pages/Nft/Nft";
 import SMCWallet from "./Pages/SMCWallet/SMCWallet";
@@ -30,6 +31,10 @@ const router = createBrowserRouter([
       {
         path: "nft",
         element: <Nft />,
+      },
+      {
+        path: "Government",
+        element: <Government />,
       },
     ],
   },
