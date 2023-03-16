@@ -38,20 +38,27 @@ const Navbar = () => {
               <ul class="dropdown-menu">
                 <li>
                   <a class="dropdown-item" href="#">
-                    Action
+                  Consumers 
                   </a>
                 </li>
                 <li>
                   <a class="dropdown-item" href="#">
-                    Another action
+                  Enterprise
                   </a>
                 </li>
                 <li>
-                  <hr class="dropdown-divider" />
+                  <a class="dropdown-item" href="#">
+                  Governments
+                  </a>
                 </li>
                 <li>
                   <a class="dropdown-item" href="#">
-                    Something else here
+                  Developers
+                  </a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">
+                  Partners
                   </a>
                 </li>
               </ul>
@@ -70,20 +77,17 @@ const Navbar = () => {
               <ul class="dropdown-menu">
                 <li>
                   <a class="dropdown-item" href="#">
-                    Action
+                  SMC NFT
                   </a>
                 </li>
                 <li>
                   <a class="dropdown-item" href="#">
-                    Another action
+                  SMC Wallet
                   </a>
                 </li>
                 <li>
-                  <hr class="dropdown-divider" />
-                </li>
-                <li>
                   <a class="dropdown-item" href="#">
-                    Something else here
+                  SMC Coin
                   </a>
                 </li>
               </ul>
@@ -102,28 +106,34 @@ const Navbar = () => {
               <ul class="dropdown-menu">
                 <li>
                   <a class="dropdown-item" href="#">
-                    Action
+                  About Us
                   </a>
                 </li>
                 <li>
                   <a class="dropdown-item" href="#">
-                    Another action
-                  </a>
-                </li>
-                <li>
-                  <hr class="dropdown-divider" />
-                </li>
-                <li>
-                  <a class="dropdown-item" href="#">
-                    Something else here
+                  Our Journey 
                   </a>
                 </li>
               </ul>
             </li>
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">
-                Investor Relations
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Help Center
+                <i class="fa fa-chevron-down ms-2"></i>
               </a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item" href="#">
+                  Careers
+                  </a>
+                </li>
+              </ul>
             </li>
           </ul>
           <button className="smc-nav-btn primary">Get In Touch</button>

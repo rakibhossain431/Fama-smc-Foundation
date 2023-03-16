@@ -7,10 +7,6 @@ import Labs from "./Pages/Labs/Labs";
 function App() {
   return (
     <div className="App">
-      {/* <Home/> */}
-      {/* <GetInTouch /> */}
-      {/* <Labs /> */}
-      <Coin />
     </div>
   );
 }

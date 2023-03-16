@@ -2,6 +2,7 @@ import { createBrowserRouter } from "react-router-dom";
 import Layout from "./Layout/Layout";
 import Coin from "./Pages/Coin/Coin";
 import GetInTouch from "./Pages/GetInTouch/GetInTouch";
+import Government from "./Pages/Government/Government";
 import Home from "./Pages/Home/Home";
 
 const router = createBrowserRouter([
@@ -20,6 +21,10 @@ const router = createBrowserRouter([
       {
         path: "coin",
         element: <Coin />,
+      },
+      {
+        path: "Government",
+        element: <Government />,
       },
     ],
   },
