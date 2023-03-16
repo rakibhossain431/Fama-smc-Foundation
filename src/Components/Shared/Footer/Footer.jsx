@@ -65,7 +65,7 @@ const Footer = () => {
                 <div className="footerMenuList col-12 col-sm-6 col-md-6 col-lg-3">
                   <h6 className="footerHeder">Discover SMC</h6>
                   <li>
-                    <a href="#">Enterprise</a>
+                    <Link to="/enterprise">Enterprise</Link>
                   </li>
                   <li>
                     <Link to="/government">Governments</Link>

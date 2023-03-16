@@ -63,6 +63,38 @@
   justify-content: center;
 }
 
+.wallet-header {
+  background-color: black;
+  box-shadow: inset 0 0 0 2000px rgb(0 0 0 / 30%);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding-top: 120px;
+  padding-bottom: 53px;
+}
+
+.header-details {
+  max-width: 750px;
+}
+.header-details h1 {
+  font-size: 72px;
+  font-weight: 700;
+  line-height: 75px;
+  letter-spacing: -0.05em;
+  color: rgba(249, 242, 147, 1);
+}
+
+.header-details p {
+  max-width: 673px;
+  color: white;
+  padding: 20px 0;
+}
+
+.header-img {
+  text-align: right;
+  /* background: url('/images/logos/walletLogo.png') no-repeat; */
+}
+
 /* Consumer Section */
 
 .consumer-bg {
@@ -1046,21 +1078,21 @@
 }
 /* choose end */
 /* enterprise start */
-.cards .card-header-title{
+.cards .card-header-title {
   margin-bottom: 65px;
 }
-.cards .card-header-title h2{
+.cards .card-header-title h2 {
   margin: 0;
 }
-.cards .card .card-body{
+.cards .card .card-body {
   padding-bottom: 84px;
 }
-.cards .card .card-body h6{
+.cards .card .card-body h6 {
   font-weight: 700;
   font-size: 16px;
   line-height: 21px;
   color: #000000;
 }
-.about-content .about-content-item{
+.about-content .about-content-item {
   padding: 65px 0;
 }

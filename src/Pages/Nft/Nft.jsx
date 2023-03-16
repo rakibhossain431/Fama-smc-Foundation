@@ -1,10 +1,35 @@
 import React from "react";
-import Banner from "../../Components/Shared/Banner/Banner";
+import banner from "../../Background/banner2.png";
 
 export default function Nft() {
   return (
     <>
-      <Banner />
+      <section class="slider">
+        <div
+          class="wallet-header"
+          style={{ backgroundImage: `url(${banner})`, width: "100%", display: "inline-block" }}
+        >
+          <div class="container">
+            <div class="row justify-content-center">
+              <div class="col-md-12 col-lg-7 d-flex align-items-center">
+                <div class="header-details">
+                  <h1>The Most Secure Wallet for All Digital Assets</h1>
+                  <p>
+                    SMC Wallet is a consumer digital product for designed to store crypto, NFT’s and other digital
+                    assets
+                  </p>
+                  <img class="d-none d-lg-block" src="images/Icon/walletLogo.png" alt="wallet" />
+                </div>
+              </div>
+              <div class="col-md-12 col-lg-3 header-img">
+                <div class="header-img">
+                  <img src="images/poster/wallet.svg" alt="wallet" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
       <section class="nft-about">
         <div class="container">
