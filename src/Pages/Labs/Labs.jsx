@@ -1,18 +1,14 @@
-import React from 'react'
-import AboutLabs from '../../Components/AboutLabs/AboutLabs'
-import Banner from '../../Components/Shared/Banner/Banner'
-import Footer from '../../Components/Shared/Footer/Footer'
-import Navbar from '../../Components/Shared/Navbar/Navbar'
+import React from "react";
+import AboutLabs from "../../Components/AboutLabs/AboutLabs";
+import Banner from "../../Components/Shared/Banner/Banner";
 
 function Labs() {
-    return (
-        <>
-            <Navbar/>
-            <Banner/>
-            <AboutLabs/>
-            <Footer/>
-        </>
-    )
+  return (
+    <>
+      <Banner />
+      <AboutLabs />
+    </>
+  );
 }
 
-export default Labs
+export default Labs;

@@ -5,6 +5,7 @@ import Enterprise from "./Pages/Enterprise/Enterprise";
 import GetInTouch from "./Pages/GetInTouch/GetInTouch";
 import Government from "./Pages/Government/Government";
 import Home from "./Pages/Home/Home";
+import Labs from "./Pages/Labs/Labs";
 import Nft from "./Pages/Nft/Nft";
 import SMCWallet from "./Pages/SMCWallet/SMCWallet";
 
@@ -40,6 +41,14 @@ const router = createBrowserRouter([
       {
         path: "enterprise",
         element: <Enterprise />,
+      },
+      {
+        path: "enterprise",
+        element: <Enterprise />,
+      },
+      {
+        path: "lab",
+        element: <Labs />,
       },
     ],
   },
