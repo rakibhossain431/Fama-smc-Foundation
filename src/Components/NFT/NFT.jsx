@@ -3,14 +3,14 @@ import React from "react";
 
 export default function NFT() {
   return (
-    <section class="nft-section">
-      <div class="container">
-        <div class="row nft-body">
+    <section className="nft-section">
+      <div className="container">
+        <div className="row nft-body">
           <div
-            class="col-md-6 d-flex align-items-center nft-bg"
+            className="col-md-6 d-flex align-items-center nft-bg"
             // style={{ backgroundImage: "url(/images/Background/nftBackground.png)" }}
           >
-            <div class="nft-details">
+            <div className="nft-details">
               <h3>A Home for Your NFT’s</h3>
               <p>
                 SMC is the best platform for NFT’s. And our Wallet can store your NFT’s just as easily as other digital
@@ -19,7 +19,7 @@ export default function NFT() {
               </p>
             </div>
           </div>
-          <div class="col-md-6 d-flex align-items-center nft-img">
+          <div className="col-md-6 d-flex align-items-center nft-img">
             <img src="images/poster/NFT.png" alt="NFT" />
           </div>
         </div>

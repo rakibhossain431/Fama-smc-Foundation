@@ -4,25 +4,24 @@ import banner from "../../Background/banner2.png";
 export default function Nft() {
   return (
     <>
-      <section class="slider">
+      <section className="slider">
         <div
-          class="wallet-header"
+          className="wallet-header"
           style={{ backgroundImage: `url(${banner})`, width: "100%", display: "inline-block" }}
         >
-          <div class="container">
-            <div class="row justify-content-center">
-              <div class="col-md-12 col-lg-7 d-flex align-items-center">
-                <div class="header-details">
-                  <h1>The Most Secure Wallet for All Digital Assets</h1>
-                  <p>
-                    SMC Wallet is a consumer digital product for designed to store crypto, NFT’s and other digital
-                    assets
-                  </p>
-                  <img class="d-none d-lg-block" src="images/Icon/walletLogo.png" alt="wallet" />
+          <div className="container">
+            <div className="row justify-content-center">
+              <div className="col-md-12 col-lg-7 d-flex align-items-center">
+                <div className="header-details">
+                  <h1>
+                    NFT’s are FAST on the <br /> SMC Network
+                  </h1>
+                  <p>SMC was specifically designed to make it faster than ever to mint & trade NFT’s</p>
+                  <img className="d-none d-lg-block" src="images/Icon/nft-mobile.png" alt="wallet" />
                 </div>
               </div>
-              <div class="col-md-12 col-lg-3 header-img">
-                <div class="header-img">
+              <div className="col-md-12 col-lg-3 header-img">
+                <div className="header-img">
                   <img src="images/poster/wallet.svg" alt="wallet" />
                 </div>
               </div>
@@ -31,26 +30,26 @@ export default function Nft() {
         </div>
       </section>
 
-      <section class="nft-about">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-6 nft-about-img">
+      <section className="nft-about">
+        <div className="container">
+          <div className="row">
+            <div className="col-md-6 nft-about-img">
               <img src="./images/poster/nft_about.svg" alt="nft" />
             </div>
-            <div class="col-md-6 nft-about-box">
-              <div class="nft-about-list">
+            <div className="col-md-6 nft-about-box">
+              <div className="nft-about-list">
                 <h6>Fastest NFT Minting</h6>
                 <p>SMC is the fastest when it comes to minting new NFT’s</p>
               </div>
-              <div class="nft-about-list">
+              <div className="nft-about-list">
                 <h6>Fastest NFT Minting</h6>
                 <p>SMC is the fastest when it comes to minting new NFT’s</p>
               </div>
-              <div class="nft-about-list">
+              <div className="nft-about-list">
                 <h6>Fastest NFT Minting</h6>
                 <p>SMC is the fastest when it comes to minting new NFT’s</p>
               </div>
-              <button type="button" class="smc-nav-btn primary mt-5">
+              <button type="button" className="smc-nav-btn primary mt-5">
                 Learn More
               </button>
             </div>
@@ -58,20 +57,20 @@ export default function Nft() {
         </div>
       </section>
 
-      <section class="nft-wallet-section">
-        <div class="container">
-          <div class="row nft-wallet-body">
-            <div class="col-lg-6 d-none d-lg-block text-center">
+      <section className="nft-wallet-section">
+        <div className="container">
+          <div className="row nft-wallet-body">
+            <div className="col-lg-6 d-none d-lg-block text-center">
               <img src="./images/poster/nft_beautiful.svg" alt="buy crypto" />
             </div>
             <div
-              class="col-lg-6 d-flex align-items-center nft-bg"
+              className="col-lg-6 d-flex align-items-center nft-bg"
               // style="background-image: url('images/backgrounds/nftBackground.png')"
             >
-              <div class="nft-wallet-details">
-                <h3 class="hading-cus">Beautifully integrated into wallet</h3>
+              <div className="nft-wallet-details">
+                <h3 className="hading-cus">Beautifully integrated into wallet</h3>
 
-                <img class="d-lg-none" src="./images/poster/nft_beautiful.svg" alt="buy crypto" />
+                <img className="d-lg-none" src="./images/poster/nft_beautiful.svg" alt="buy crypto" />
 
                 <p>
                   Don’t keep unlisted NFT’s lying around in trading marketplaces. Move them all into the SMC Wallet.
@@ -83,14 +82,14 @@ export default function Nft() {
         </div>
       </section>
 
-      <section class="exchange-section nft-wall">
-        <div class="container">
-          <div class="row exchange-body">
-            <div class="col-md-6 d-flex align-items-center">
-              <div class="exchange-details">
-                <h3 class="hading-cus">Your Personal Wall of NFT’s</h3>
+      <section className="exchange-section nft-wall">
+        <div className="container">
+          <div className="row exchange-body">
+            <div className="col-md-6 d-flex align-items-center">
+              <div className="exchange-details">
+                <h3 className="hading-cus">Your Personal Wall of NFT’s</h3>
 
-                <img class="d-lg-none" src="./images/poster/nft_personal.svg" alt="buy crypto" />
+                <img className="d-lg-none" src="./images/poster/nft_personal.svg" alt="buy crypto" />
 
                 <p>
                   See every NFT you own organized into an AI powered personalized wall just for you. This feature is
@@ -98,40 +97,40 @@ export default function Nft() {
                 </p>
               </div>
             </div>
-            <div class="col-md-6 d-none d-lg-block text-center">
+            <div className="col-md-6 d-none d-lg-block text-center">
               <img src="./images/poster/nft_personal.svg" alt="buy crypto" />
             </div>
           </div>
         </div>
       </section>
 
-      <section class="nft-resource-section">
-        <div class="container">
+      <section className="nft-resource-section">
+        <div className="container">
           <h3>Resources on NFT</h3>
-          <div class="row row-cols-1 row-cols-md-3 g-4">
-            <div class="col">
-              <div class="card">
-                <img src="./images/poster/resource_1.svg" class="card-img-top" alt="resource" />
-                <div class="card-body">
-                  <h5 class="card-title">Learn More About NFT Minting</h5>
+          <div className="row row-cols-1 row-cols-md-3 g-4">
+            <div className="col">
+              <div className="card">
+                <img src="./images/poster/resource_1.svg" className="card-img-top" alt="resource" />
+                <div className="card-body">
+                  <h5 className="card-title">Learn More About NFT Minting</h5>
                 </div>
               </div>
             </div>
 
-            <div class="col">
-              <div class="card">
-                <img src="./images/poster/resource_2.svg" class="card-img-top" alt="resource" />
-                <div class="card-body">
-                  <h5 class="card-title">Learn More About Trading NFT’s</h5>
+            <div className="col">
+              <div className="card">
+                <img src="./images/poster/resource_2.svg" className="card-img-top" alt="resource" />
+                <div className="card-body">
+                  <h5 className="card-title">Learn More About Trading NFT’s</h5>
                 </div>
               </div>
             </div>
 
-            <div class="col">
-              <div class="card">
-                <img src="./images/poster/resource_3.svg" class="card-img-top" alt="..." />
-                <div class="card-body">
-                  <h5 class="card-title">Learn More About Storing NFT’s</h5>
+            <div className="col">
+              <div className="card">
+                <img src="./images/poster/resource_3.svg" className="card-img-top" alt="..." />
+                <div className="card-body">
+                  <h5 className="card-title">Learn More About Storing NFT’s</h5>
                 </div>
               </div>
             </div>
@@ -139,14 +138,14 @@ export default function Nft() {
         </div>
       </section>
 
-      <section class="download-section">
-        <div class="container download-body">
-          <div class="align-items-center row">
-            <div class="col-md-6">
+      <section className="download-section">
+        <div className="container download-body">
+          <div className="align-items-center row">
+            <div className="col-md-6">
               <h4>Download our App</h4>
               <p>Over 100,000 Downloads and Rated 4.5++ on Average</p>
             </div>
-            <div class="col-md-6 d-flex align-items-start justify-content-center gap-4">
+            <div className="col-md-6 d-flex align-items-start justify-content-center gap-4">
               <a href="#">
                 <img src="./images/Icon/appleStore.png" alt="apple store" />
               </a>
