@@ -472,6 +472,9 @@
   .whitepaperRight h2 {
     font-size: 28px;
   }
+  .footerNavMenu {
+    padding-left: 26px;
+  }
 }
 @media only screen and (max-width: 385px) {
   .whitepaperRight h2 {
@@ -490,7 +493,7 @@
 .social-container {
   max-width: 1006px;
   padding-right: 12px;
-  padding-left: 12px;
+  padding-left: 18px;
   margin-right: auto;
   margin-left: auto;
 }
@@ -537,6 +540,7 @@
   }
   .footerLogo {
     padding-top: 16px;
+    padding-left: 24px;
   }
   .footerSocialMenu {
     width: 100%;
@@ -628,8 +632,14 @@
   background-repeat: no-repeat;
   background-size: initial;
   background-position: center right;
-  margin: 75px 0 105px 0;
+  padding: 75px 0 105px 0;
   /* background-color: black; */
+}
+.contact-left .contact-left-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .contact-left .contact-left-content .contact-left-item {
   display: flex;
@@ -673,11 +683,24 @@
 .contact-list input {
   padding: 12px;
 }
-
+@media only screen and (max-width: 768px) {
+  .contact-left .contact-left-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media only screen and (max-width: 570px) {
+  .contact {
+    background-position: 100% -64%;
+  }
+}
 /* ****************************
 ===========labs============
 *****************************/
-.about-labs {
+.about-content-left .about-content-left-img img,
+.about-content-right .about-content-left-img img {
   margin: 60px 0;
 }
 .about-content-left .about-content-left-img img {
@@ -723,6 +746,10 @@
 .all-brands-card {
   border: none;
 }
+.all-brands-card img {
+  width: 100%;
+}
+
 .all-brands-card .smc-logo img {
   position: absolute;
   bottom: 17px;
@@ -742,6 +769,30 @@
   font-size: 20px;
   line-height: 25px;
   color: #333333;
+}
+@media only screen and (max-width: 991px) {
+  .about-labs {
+    margin: 47px 0 0 0;
+  }
+  .about-labs .about-content .about-content-item {
+    margin-bottom: 65px;
+  }
+  .about-content-left-img {
+    margin-bottom: 35px;
+  }
+}
+@media only screen and (max-width: 570px) {
+  .brand-card-content .brand-card-title {
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 36px;
+  }
+  .enterprise-choose .choose-title,
+  .card-header-title h2 {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 42px;
+  }
 }
 /* ****************************
 ===========Coin============
@@ -791,7 +842,18 @@
   line-height: 28px;
   color: #000000;
 }
-
+@media only screen and (max-width: 991px) {
+  .white-coin {
+    margin: 50px 0 0 0;
+  }
+}
+@media only screen and (max-width: 570px) {
+  .w-coin-left h1 {
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 50px;
+  }
+}
 /* SMC-Wallet-Special Start */
 
 .wallet-section {
@@ -1080,11 +1142,14 @@
     font-weight: 500;
     line-height: 31px;
   }
+  .smc-service {
+    padding-bottom: 108px;
+  }
 }
 /* smc-service end */
 /* information start */
 .smc-information {
-  margin: 65px;
+  margin: 65px 0;
 }
 .info-subtitle {
   text-align: center;
@@ -1147,6 +1212,35 @@
 }
 .about-content .about-content-item {
   padding: 65px 0;
+}
+@media only screen and (max-width: 570px) {
+  .about-content .about-content-item {
+    padding-bottom: 0px;
+  }
+}
+/* Impact start */
+.impactTextContent-left .impactTextContent {
+  width: 80%;
+  margin: auto;
+}
+.impactTextContent-left .impactTextContent h3 {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 42px;
+  color: #000000;
+}
+@media only screen and (max-width: 992px) {
+  .impactTextContent-left .impactTextContent {
+    width: 100%;
+  }
+}
+/* ***********************************
+===========Developers start============
+****************************************/
+.developers-card-item .developers-card {
+  background: #ffe180;
+  border: none;
+  padding: 18px;
 }
 
 /* Consumer Page Start */

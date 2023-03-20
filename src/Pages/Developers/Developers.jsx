@@ -1,8 +1,7 @@
 import React from "react";
-import EnterpriseUse from "../../Components/EnterpriseUse/EnterpriseUse";
-import WhitePaper from "../../Components/WhitePaper/WhitePaper";
+import DevelopersCard from "../../Components/DevelopersCard/DevelopersCard";
 
-function Enterprise() {
+function Developers() {
   return (
     <>
       <section class="banner banner-4">
@@ -12,11 +11,11 @@ function Enterprise() {
               <div class="banner-content">
                 <div class="entry-content">
                   <h1 class="entry-title">
-                    The Only Enterprise Ready <br /> Blockchain
+                    The Power of Blockchain <br /> in Everyday Life
                   </h1>
                   <p class="entry-subtitle">
-                    The SMC Blockchain is ready to meet the scaling challenges <br />
-                    of Enterprise Applications
+                    Blockchain is not just some obscure technology for hackers and purists, <br /> it has the power to
+                    change your world in the near future.
                   </p>
                 </div>
               </div>
@@ -25,11 +24,9 @@ function Enterprise() {
         </div>
       </section>
 
-      <EnterpriseUse />
-
-      <WhitePaper />
+      <DevelopersCard />
     </>
   );
 }
 
-export default Enterprise;
+export default Developers;
