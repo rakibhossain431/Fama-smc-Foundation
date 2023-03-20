@@ -13,12 +13,11 @@ export default function Nft() {
             <div class="row justify-content-center">
               <div class="col-md-12 col-lg-7 d-flex align-items-center">
                 <div class="header-details">
-                  <h1>The Most Secure Wallet for All Digital Assets</h1>
+                  <h1>NFT’s are FAST on the <br/> SMC Network</h1>
                   <p>
-                    SMC Wallet is a consumer digital product for designed to store crypto, NFT’s and other digital
-                    assets
+                  SMC was specifically designed to make it faster than ever to mint & trade NFT’s 
                   </p>
-                  <img class="d-none d-lg-block" src="images/Icon/walletLogo.png" alt="wallet" />
+                  <img class="d-none d-lg-block" src="images/Icon/nft-mobile.png" alt="wallet" />
                 </div>
               </div>
               <div class="col-md-12 col-lg-3 header-img">

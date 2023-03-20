@@ -7,9 +7,9 @@ function Contact() {
                 <div className="container">
                     <div className="contact-content">
                         <div className="row">
-                            <div className="col-3 contact-left">
-                                <div className="contact-left-content">
-                                    <div className="contact-left-item  mb-5">
+                            <div className="col-md-3 col-12 contact-left order-md-1 order-2">
+                                <div className="row cols-md-2 cols-lg-1 cols-xl-1 gap-3 contact-left-content">
+                                    <div className="col contact-left-item">
                                         <div className="icon">
                                             <img src="./images/Icon/location.svg" alt="icon" />
                                         </div>
@@ -17,7 +17,7 @@ function Contact() {
                                         <span>Address line 1</span>
                                         <span>Address line 2</span>
                                     </div>
-                                    <div className="contact-left-item mb-5">
+                                    <div className="col contact-left-item">
                                         <div className="icon">
                                             <img src="./images/Icon/Phone.svg" alt="icon" />
                                         </div>
@@ -25,7 +25,7 @@ function Contact() {
                                         <span>Address line 1</span>
                                         <span>Address line 2</span>
                                     </div>
-                                    <div className="contact-left-item">
+                                    <div className="col contact-left-item">
                                         <div className="icon">
                                             <img src="./images/Icon/Address.svg" alt="icon" />
                                         </div>
@@ -35,7 +35,7 @@ function Contact() {
                                     </div>
                                </div>
                             </div>
-                            <div className="col-8 contact-right">
+                            <div className="col-md-8 col-12 contact-right order-md-2 order-1">
                                 <div className="contact-right-content">
                                     <h3>Send us a message</h3>
                                     <p>Get in touch with regarding any questions. Based on the type of your<br/> inquiry a support staff will reach out to you. </p>

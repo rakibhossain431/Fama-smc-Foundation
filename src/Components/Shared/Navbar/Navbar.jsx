@@ -50,6 +50,16 @@ const Navbar = () => {
                     Governments
                   </NavLink>
                 </li>
+                <li>
+                  <NavLink className="dropdown-item" to="/developers">
+                  Developers
+                  </NavLink>
+                </li>
+                <li>
+                  <NavLink className="dropdown-item" to="/impact">
+                  Impact
+                  </NavLink>
+                </li>
               </ul>
             </li>
             <li className="nav-item dropdown">

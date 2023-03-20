@@ -7,8 +7,24 @@ import WhitePaper from '../../Components/WhitePaper/WhitePaper'
 function Government() {
     return (
         <>
-            <Navbar />
-            <Banner />
+            <section class="banner banner-4">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-lg-12">
+              <div class="banner-content">
+                <div class="entry-content">
+                  <h1 class="entry-title">
+                  Helping Goverments Scale <br/> Critical Services 
+                  </h1>
+                  <p class="entry-subtitle">
+                  SMC is ready to help governments harness the power of blockchain 
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
             <GovernmentUse />
             <WhitePaper />
         </>

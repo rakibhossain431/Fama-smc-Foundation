@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 function AboutLabs() {
     return (
@@ -6,57 +7,55 @@ function AboutLabs() {
          <section className='about-labs'>
             <div className="container">
                 <div className="about-content">
-                    <div className="row justify-content-center gap-3 mb-5">
-                        <div className="col-5 about-content-left">
-                            <div className="about-content-left-img position-relative">
-                               <img src="./images/Labs/image-1.png" alt="img" />
-                               <div className="smc-logo">
-                                  <img src="./images/Icon/smc.svg" alt="logo" />
-                               </div>
+                    <div className="row about-content-item justify-content-around gap-3">
+                        <div className="col-4 about-content-left d-lg-block d-none">
+                            <div className="about-content-left-img">
+                               <img src="./images/Labs/image (1).png" alt="img" />
                             </div>
                         </div>
-                        <div className="col-6 about-content-right">
+                        <div className="col-12 col-lg-6 about-content-right">
                             <div className="about-content-right-text">
                                 <h3>Our Technology </h3>
-                                <p>Suspendisse quis arcu sem. Aenean feugiat ex eu vestibulum vestibulum. Maecenas cursus. <br/><br/>
-
-                                Curabitur tempor quis eros tempus lacinia. Nam bibendum pellentesque quam a convallis. Sed ut vulputate nisi. Integer in felis sed leo vestibulum venenatis. Sed ut Integer in felis sed leo vestibulum venenatis. Suspendisse quis arcu sem. Aenean feugiat ex eu vestibulum vestibulum. Maecenas ullamcorper gravida sem sit amet cursus. </p>
+                                <div className="about-content-left-img d-lg-none d-block py-3">
+                                  <img src="./images/Labs/image (1).png" alt="img" />
+                                </div>
+                                <p>Suspendisse quis arcu sem. Aenean feugiat ex eu vestibulum vestibulum. Maecenas cursus.<br/><br/> Curabitur tempor quis eros tempus lacinia. Nam bibendum pellentesque quam a convallis. Sed ut vulputate nisi. Integer in felis sed leo vestibulum venenatis. Sed ut Integer in felis sed leo vestibulum venenatis. Suspendisse quis arcu sem. Aenean feugiat ex eu vestibulum vestibulum. Maecenas ullamcorper gravida sem sit amet cursus. </p>
                             </div>
                         </div>
                     </div>
-                    <div className="row justify-content-center gap-3 mb-5">
-                        <div className="col-5 about-content-left">
-                            <div className="about-content-left-img position-relative">
-                               <img src="./images/Labs/image-2.png" alt="img" />
-                               <div className="smc-logo">
-                                  <img src="./images/Icon/smc.svg" alt="logo" />
-                               </div>
+                    <div className="row about-content-item justify-content-around gap-3">
+                        <div className="col-4 about-content-left d-lg-block d-none">
+                            <div className="about-content-left-img">
+                               <img src="./images/Labs/image (2).png" alt="img" />
                             </div>
                         </div>
-                        <div className="col-6 about-content-right">
+                        <div className="col-12 col-lg-6 about-content-right">
                             <div className="about-content-right-text">
-                                <h3>Our Research</h3>
-                                <p>Suspendisse quis arcu sem. Aenean feugiat ex eu vestibulum vestibulum. Maecenas cursus. <br/><br/>
-
-                                Curabitur tempor quis eros tempus lacinia. Nam bibendum pellentesque quam a convallis. Sed ut vulputate nisi. Integer in felis sed leo vestibulum venenatis. Sed ut Integer in felis sed leo vestibulum venenatis. Suspendisse quis arcu sem. Aenean feugiat ex eu vestibulum vestibulum. Maecenas ullamcorper gravida sem sit amet cursus. </p>
+                                <h3>Our Research </h3>
+                                <div className="about-content-left-img d-lg-none d-block py-3">
+                                   <img src="./images/Labs/image (2).png" alt="img" />
+                                </div>
+                                <p>Suspendisse quis arcu sem. Aenean feugiat ex eu vestibulum vestibulum. Maecenas cursus. <br/> <br/>Curabitur tempor quis eros tempus lacinia. Nam bibendum pellentesque quam a convallis. Sed ut vulputate nisi. Integer in felis sed leo vestibulum venenatis. Sed ut Integer in felis sed leo vestibulum venenatis. Suspendisse quis arcu sem. Aenean feugiat ex eu vestibulum vestibulum. Maecenas ullamcorper gravida sem sit amet cursus. </p>
+                                <div className="contact-btn">
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <div className="row justify-content-center gap-3">
-                        <div className="col-5 about-content-left">
-                            <div className="about-content-left-img position-relative">
-                                <img src="./images/Labs/image-3.png" alt="img" />
-                                <div className="smc-logo">
-                                  <img src="./images/Icon/smc.svg" alt="logo" />
-                               </div>
+                    <div className="row about-content-item justify-content-around gap-3">
+                        <div className="col-4 about-content-left d-lg-block d-none">
+                            <div className="about-content-left-img">
+                                <img src="./images/Labs/image (3).png" alt="img" />
                             </div>
                         </div>
-                        <div className="col-6 about-content-right">
+                        <div className="col-12 col-lg-6 about-content-right">
                             <div className="about-content-right-text">
                                 <h3>Our Community</h3>
-                                <p>Suspendisse quis arcu sem. Aenean feugiat ex eu vestibulum vestibulum. Maecenas cursus. <br/><br/>
-
-                                Curabitur tempor quis eros tempus lacinia. Nam bibendum pellentesque quam a convallis. Sed ut vulputate nisi. Integer in felis sed leo vestibulum venenatis. Sed ut Integer in felis sed leo vestibulum venenatis. Suspendisse quis arcu sem. Aenean feugiat ex eu vestibulum vestibulum. Maecenas ullamcorper gravida sem sit amet cursus. </p>
+                                <div className="about-content-left-img d-lg-none d-block py-3">
+                                   <img src="./images/Labs/image (3).png" alt="img" />
+                                </div>
+                                <p>Suspendisse quis arcu sem. Aenean feugiat ex eu vestibulum vestibulum. Maecenas cursus. <br/> <br/>Curabitur tempor quis eros tempus lacinia. Nam bibendum pellentesque quam a convallis. Sed ut vulputate nisi. Integer in felis sed leo vestibulum venenatis. Sed ut Integer in felis sed leo vestibulum venenatis. Suspendisse quis arcu sem. Aenean feugiat ex eu vestibulum vestibulum. Maecenas ullamcorper gravida sem sit amet cursus. </p>
+                                <div className="contact-btn">
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -77,11 +76,8 @@ function AboutLabs() {
                     <div class="col">
                     <div class="card-group">
                         <div class="card all-brands-card">
-                            <div className='position-relative'>
-                             <img src="./images/Labs/image-1 (1).png" alt="img" />
-                                <div className="smc-logo">
-                                    <img src="./images/Icon/smc.svg" alt="logo" />
-                                </div>
+                            <div className=''>
+                             <img src="./images/Labs/image (4).png" alt="img" />
                             </div>
                             <div class="card-body all-brands-card-body">
                                 <h6 class="impact-card-title">Curabitur tempor quis eros tempus</h6>
@@ -93,11 +89,8 @@ function AboutLabs() {
                     <div class="col">
                         <div class="card-group">
                             <div class="card all-brands-card">
-                                <div className='position-relative'>
-                                     <img src="./images/Labs/image-1 (2).png" alt="img" />
-                                     <div className="smc-logo">
-                                        <img src="./images/Icon/smc.svg" alt="logo" />
-                                   </div>
+                                <div className=''>
+                                     <img src="./images/Labs/image (6).png" alt="img" />
                                 </div>
                             <div class="card-body all-brands-card-body">
                                 <h6 class="impact-card-title">Curabitur tempor quis eros tempus</h6>
@@ -109,11 +102,8 @@ function AboutLabs() {
                     <div class="col">
                         <div class="card-group">
                             <div class="card all-brands-card">
-                                <div className='position-relative'>
-                                   <img src="./images/Labs/image-1 (3).png" alt="img" />
-                                   <div className="smc-logo">
-                                        <img src="./images/Icon/smc.svg" alt="logo" />
-                                   </div>
+                                <div className=''>
+                                   <img src="./images/Labs/image (5).png" alt="img" />
                                 </div>
                                 <div class="card-body all-brands-card-body">
                                     <h6 class="impact-card-title">Curabitur tempor quis eros tempus</h6>
