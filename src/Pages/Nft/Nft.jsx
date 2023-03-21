@@ -13,7 +13,7 @@ export default function Nft() {
             <div className="row justify-content-center">
               <div className="col-md-12 col-lg-7 d-flex align-items-center">
                 <div className="header-details">
-                  <h1>
+                  <h1 className="banner-nft-entry-title">
                     NFT’s are FAST on the <br /> SMC Network
                   </h1>
                   <p>SMC was specifically designed to make it faster than ever to mint & trade NFT’s</p>
@@ -21,8 +21,8 @@ export default function Nft() {
                 </div>
               </div>
               <div className="col-md-12 col-lg-3 header-img">
-                <div className="header-img">
-                  <img src="images/poster/wallet.svg" alt="wallet" />
+                <div className="header-img banner-nft-entry-img">
+                  <img className="" src="images/poster/wallet.svg" alt="wallet" />
                 </div>
               </div>
             </div>
@@ -36,7 +36,7 @@ export default function Nft() {
             <div className="col-md-6 nft-about-img">
               <img src="./images/poster/nft_about.svg" alt="nft" />
             </div>
-            <div className="col-md-6 nft-about-box">
+            <div className="col-md-6 mt-5 mt-md-0 nft-about-box">
               <div className="nft-about-list">
                 <h6>Fastest NFT Minting</h6>
                 <p>SMC is the fastest when it comes to minting new NFT’s</p>
@@ -49,7 +49,7 @@ export default function Nft() {
                 <h6>Fastest NFT Minting</h6>
                 <p>SMC is the fastest when it comes to minting new NFT’s</p>
               </div>
-              <button type="button" className="smc-nav-btn primary mt-5">
+              <button type="button" className="smc-nav-btn bg-white-btn primary mt-5">
                 Learn More
               </button>
             </div>

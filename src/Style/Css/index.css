@@ -36,7 +36,6 @@
   border-radius: 5px;
   border: none;
 }
-
 .primary {
   background-color: rgba(247, 200, 69, 1);
   color: rgba(28, 38, 51, 1);
@@ -45,6 +44,18 @@
 .secondary {
   background-color: rgba(28, 38, 51, 1);
   color: white;
+}
+.bg-white-btn:hover{
+  background-color: rgba(247, 200, 69, 1);
+  color: rgba(28, 38, 51, 1);
+}
+.bg-ore-btn:hover{
+  background-color: white;
+  color: rgba(28, 38, 51, 1);
+}
+.bg-black-btn:hover{
+  background-color: white;
+  color: rgba(28, 38, 51, 1);
 }
 
 /* <== HOME PAGE ==> */
@@ -189,6 +200,15 @@
   .revolutionHeader {
     font-size: 28px;
     font-weight: 500;
+  }
+}
+@media only screen and (max-width: 570px) {
+  .banner-nft-entry-title {
+    font-size: 56px !important;
+    line-height: 56px !important;
+  }
+  .banner-nft-entry-img{
+    text-align: center;
   }
 }
 
@@ -491,7 +511,7 @@
 
 /* footer */
 .social-container {
-  max-width: 1006px;
+  max-width: 1080px;
   padding-right: 12px;
   padding-left: 18px;
   margin-right: auto;
@@ -545,6 +565,9 @@
   .footerSocialMenu {
     width: 100%;
   }
+  .footerLogo {
+    text-align: center;
+  }
 }
 .footerArrowIcon {
   padding-left: 8px;
@@ -574,7 +597,7 @@
   .consumer,
   .enterprise,
   .governments {
-    padding: 30px 0;
+    padding: 0;
   }
   .smc-btn {
     width: 70%;
@@ -586,9 +609,9 @@
   .consumer-m-title {
     display: block;
     font-size: 28px;
-    background: white;
+    /* background: white; */
     font-weight: 500;
-    padding-left: 10px;
+    padding:65px 0 19px 13px;
   }
   .foundation-card,
   .build-card {
@@ -883,7 +906,14 @@
   font-size: 16px;
   line-height: 21px;
 }
-
+@media only screen and (max-width: 570px) {
+  .smc-wallet-title{
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 42px;
+    color: #000000;
+  }
+}
 /* SMC-Wallet-Special End */
 
 /* Buy-Crypto & details Start */
@@ -1119,11 +1149,7 @@
     line-height: 18px;
   }
 }
-@media only screen and (max-width: 570px) {
-  .cbds-link {
-    width: 100%;
-  }
-}
+
 /* CBDS end */
 /* smc-service start */
 .smc-service {
@@ -1210,9 +1236,9 @@
   line-height: 21px;
   color: #000000;
 }
-.about-content .about-content-item {
+/* .about-content .about-content-item {
   padding: 65px 0;
-}
+} */
 @media only screen and (max-width: 570px) {
   .about-content .about-content-item {
     padding-bottom: 0px;
@@ -1241,6 +1267,16 @@
   background: #ffe180;
   border: none;
   padding: 18px;
+}
+.developer-resources .developer-resources-item .developer-resources-card{
+  background: #FFFFFF;
+  border: 1px solid #D9D9D9;
+  box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.11);
+  border-radius: 10px 10px 0px 0px;
+}
+.developer-re-btn .btn-full:hover{
+  color: #f7c845;
+  background: #000000;
 }
 
 /* Consumer Page Start */
@@ -1344,4 +1380,106 @@
   .events time {
     width: 150px;
   }
+}
+
+/* ***********************************
+===========Relations start============
+****************************************/
+.relations-skills{
+  padding: 50px 0;
+  background: #F1F3F4;
+}
+.rel-com-content .rel-com-item{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.rel-com-content .rel-com-item span{
+  font-weight: 500;
+  font-size: 72px;
+  line-height: 50px;
+  color: #000000;
+  margin-bottom: 12px;
+}
+.rel-com-content .rel-com-item small{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 25px;
+  color: #000000;
+}
+@media only screen and (max-width: 570px) {
+  .rel-com-content .rel-com-item span{
+    font-weight: 500;
+    font-size: 56px;
+    line-height: 50px;
+  }
+}
+.investor-resources{
+  padding: 50px;
+  background: #FFE180;
+}
+.investor-resources .investor-resources-content .investor-resources-img{
+  margin-bottom: 12px;
+}
+.investor-resources .investor-resources-content h4{
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 49px;
+  text-align: center;
+  letter-spacing: -0.05em;
+  color: #000000;
+  padding-bottom: 20px;
+}
+.investor-resources .investor-resources-content .investor-title{
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 23px;
+  text-align: center;
+  letter-spacing: -0.05em;
+  color: #000000;
+}
+.investor-convention-content .entry-title h4{
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 42px;
+  color: #000000;
+}
+.investor-resources .investor-resources-content .investor-convention-content-item span{
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 28px;
+  color: #000000;
+}
+.investor-convention-content-right .investor-convention-content-item h5{
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 28px;
+  color: #000000;
+  margin: 15px 0 5px 0;
+}
+.investor-convention-content-right .investor-convention-content-item a{
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 23px;
+  color: #333333;
+}
+.cutOfTex{
+  font-weight: 400;
+  font-size: 18px;
+  text-decoration-line: underline;
+  color: #000000;
+  --line-height: 28px;
+  /* --max-lines: 3;
+  max-height: calc(var(--max-lines) * 1em * var(--line-height));
+  line-height: var(--line-height);
+  overflow: hidden; */
+}
+.cutOfTex::after{
+    width: 1.25em;
+    color: black;
+    line-height: 0;
+    content: url(data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 16 16'%3e%3cpath fill='none' stroke='rgba%280,0,0,.5%29' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M5 14l6-6-6-6'/%3e%3c/svg%3e);
+    transition: transform 0.35s ease;
+    transform-origin: 0.5em 50%;
 }

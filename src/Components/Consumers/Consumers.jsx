@@ -18,7 +18,7 @@ const Consumers = () => {
                   on a mission to build a fairer world.
                 </p>
                 <div className="d-flex">
-                  <button className="smc-btn secondary">Learn More</button>
+                  <button className="smc-btn bg-ore-btn secondary">Learn More</button>
                 </div>
               </div>
             </div>
@@ -38,7 +38,7 @@ const Consumers = () => {
                   on a mission to build a fairer world.
                 </p>
                 <div className="d-flex">
-                  <button className="smc-btn secondary">Learn More</button>
+                  <button className="smc-btn bg-white-btn secondary">Learn More</button>
                 </div>
               </div>
             </div>
@@ -64,7 +64,7 @@ const Consumers = () => {
                   on a mission to build a fairer world.
                 </p>
                 <div className="d-flex">
-                  <button className="smc-btn secondary">Learn More</button>
+                  <button className="smc-btn bg-white-btn secondary">Learn More</button>
                 </div>
               </div>
             </div>

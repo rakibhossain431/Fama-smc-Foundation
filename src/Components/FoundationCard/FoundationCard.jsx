@@ -47,7 +47,7 @@ const FoundationCard = () => {
                 </li>
               </ul>
               <div className="d-flex">
-                <button className="btn-full smc-btn secondary">
+                <button className="btn-full bg-ore-btn smc-btn secondary">
                   Learn More
                 </button>
               </div>
@@ -74,7 +74,7 @@ const FoundationCard = () => {
                 you can do with SMC
               </p>
               <div className="d-flex">
-                <button className="btn-full smc-btn primary">Learn More</button>
+                <button className="btn-full bg-black-btn smc-btn primary">Learn More</button>
               </div>
             </div>
           </div>

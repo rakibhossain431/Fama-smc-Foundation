@@ -1,5 +1,6 @@
 import React from "react";
 import DevelopersCard from "../../Components/DevelopersCard/DevelopersCard";
+import DevelopersResources from "../../Components/DevelopersResources/DevelopersResources";
 
 function Developers() {
   return (
@@ -25,6 +26,7 @@ function Developers() {
       </section>
 
       <DevelopersCard />
+      <DevelopersResources />
     </>
   );
 }

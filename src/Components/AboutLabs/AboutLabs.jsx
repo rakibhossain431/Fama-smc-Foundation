@@ -6,7 +6,7 @@ function AboutLabs() {
       <section className="about-labs">
         <div className="container">
           <div className="about-content">
-            <div className="row about-content-item justify-content-around gap-3">
+            <div className="row  justify-content-around gap-3">
               <div className="col-4 about-content-left d-lg-block d-none">
                 <div className="about-content-left-img">
                   <img src="./images/Labs/image (1).png" alt="img" />
@@ -15,8 +15,8 @@ function AboutLabs() {
               <div className="col-12 col-lg-6 about-content-right">
                 <div className="about-content-right-text">
                   <h3>Our Technology </h3>
-                  <div className="about-content-left-img d-lg-none d-block py-3">
-                    <img src="./images/Labs/image (1).png" alt="img" />
+                  <div className=" d-lg-none d-block py-3">
+                    <img className="w-100" src="./images/Labs/image (1).png" alt="img" />
                   </div>
                   <p>
                     Suspendisse quis arcu sem. Aenean feugiat ex eu vestibulum vestibulum. Maecenas cursus.
@@ -29,7 +29,7 @@ function AboutLabs() {
                 </div>
               </div>
             </div>
-            <div className="row about-content-item justify-content-around gap-3">
+            <div className="row  justify-content-around gap-3">
               <div className="col-4 about-content-left d-lg-block d-none">
                 <div className="about-content-left-img">
                   <img src="./images/Labs/image (2).png" alt="img" />
@@ -38,8 +38,8 @@ function AboutLabs() {
               <div className="col-12 col-lg-6 about-content-right">
                 <div className="about-content-right-text">
                   <h3>Our Research </h3>
-                  <div className="about-content-left-img d-lg-none d-block py-3">
-                    <img src="./images/Labs/image (2).png" alt="img" />
+                  <div className=" d-lg-none d-block py-3">
+                    <img className="w-100" src="./images/Labs/image (2).png" alt="img" />
                   </div>
                   <p>
                     Suspendisse quis arcu sem. Aenean feugiat ex eu vestibulum vestibulum. Maecenas cursus. <br />{" "}
@@ -53,7 +53,7 @@ function AboutLabs() {
                 </div>
               </div>
             </div>
-            <div className="row about-content-item justify-content-around gap-3">
+            <div className="row  justify-content-around gap-3">
               <div className="col-4 about-content-left d-lg-block d-none">
                 <div className="about-content-left-img">
                   <img src="./images/Labs/image (3).png" alt="img" />
@@ -62,8 +62,8 @@ function AboutLabs() {
               <div className="col-12 col-lg-6 about-content-right">
                 <div className="about-content-right-text">
                   <h3>Our Community</h3>
-                  <div className="about-content-left-img d-lg-none d-block py-3">
-                    <img src="./images/Labs/image (3).png" alt="img" />
+                  <div className=" d-lg-none d-block py-3">
+                    <img className="w-100" src="./images/Labs/image (3).png" alt="img" />
                   </div>
                   <p>
                     Suspendisse quis arcu sem. Aenean feugiat ex eu vestibulum vestibulum. Maecenas cursus. <br />{" "}

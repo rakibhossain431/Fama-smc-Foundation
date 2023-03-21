@@ -120,6 +120,11 @@ const Navbar = () => {
                 </li>
               </ul>
             </li>
+            <li className="nav-item dropdown">
+               <NavLink className="nav-link" to="/investor-relations">
+                   Investor Relations
+                </NavLink>
+              </li>
             {/* <li className="nav-item dropdown">
               <a
                 className="nav-link dropdown-toggle"
@@ -141,7 +146,7 @@ const Navbar = () => {
             </li> */}
           </ul>
           <Link to="/get-in-touch">
-            <button className="smc-nav-btn primary">Get In Touch</button>
+            <button className="smc-nav-btn bg-ore-btn primary">Get In Touch</button>
           </Link>
         </div>
 
