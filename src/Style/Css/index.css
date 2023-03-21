@@ -287,6 +287,10 @@
   font-weight: 500;
 }
 
+.sub-menu-item.active {
+  color: #f7c845;
+}
+
 /* navbar chevron icon */
 .dropdown-toggle::after {
   display: none;
@@ -499,7 +503,7 @@
 }
 
 .footerSocialMenu {
-  width: 97%;
+  width: 100%;
   margin: auto;
 }
 .socialList {
@@ -1259,7 +1263,7 @@
   display: flex;
   align-items: center;
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
   .content-vertical-center {
     display: block;
   }
@@ -1329,7 +1333,7 @@
   box-sizing: border-box;
   font-family: arial;
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
   .events {
     margin: 0;
     width: 100%;
@@ -1344,4 +1348,180 @@
   .events time {
     width: 150px;
   }
+}
+
+.explore-section {
+  background: #ffe180;
+  padding: 90px;
+}
+
+@media only screen and (max-width: 768px) {
+  .explore-section {
+    padding: 90px 12px;
+  }
+}
+
+.apply-for-partner-card .card {
+  border: none;
+}
+.apply-for-partner-card .card .card-body {
+  height: 100%;
+  background-image: url("../../../public/images/Background/partners-card-bg.png");
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: calc(100% - 50px) center;
+  background-color: #1c2633;
+  color: white;
+  padding: 0;
+  padding-left: 50px;
+}
+
+.apply-for-partner-card h2 {
+  color: white;
+  font-size: 56px;
+}
+
+@media only screen and (max-width: 1199px) {
+  .apply-for-partner-card h2 {
+    font-size: 42px;
+  }
+}
+@media only screen and (max-width: 991px) {
+  .apply-for-partner-card h2 {
+    font-size: 32px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .apply-for-partner-card .card .card-body {
+    background-position: right calc(50% - 90px);
+    padding: 50px 13px;
+    margin-left: 0;
+  }
+}
+
+/* Sidebar Css Start */
+.sidebar .category-btn {
+  border: none;
+  background: transparent;
+  width: 100%;
+  text-align: start;
+  padding: 0;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 23px;
+  margin-bottom: 15px;
+}
+
+.sidebar .category-btn::after {
+  content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cpath d='M8 13.1l-8-8 2.1-2.2 5.9 5.9 5.9-5.9 2.1 2.2z'/%3E%3C/svg%3E");
+  position: absolute;
+  width: 15px;
+  margin: 3px 0px 3px 20px;
+}
+
+.sidebar .nav-item {
+  font-size: 16px;
+  margin-bottom: 16px;
+  font-weight: 500;
+}
+.sidebar .nav-item a:hover {
+  color: #000000;
+}
+
+/* sidebar design end */
+
+.partners {
+  border: 1px solid #d9d9d9;
+  box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.11);
+  border-radius: 5px 5px 0 0;
+}
+
+.partners-image {
+  background: #ffe180;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0;
+  outline: 1px solid #ffe180;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.partners-image img {
+  width: 30%;
+}
+
+.service-heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.see-more-btn {
+  border: none;
+  background: transparent;
+  font-weight: 700;
+  font-size: 18px;
+}
+.service-card {
+  box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.11);
+  padding: 10px 0;
+  border-radius: 5px;
+}
+.service-image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.service-image img {
+  width: 30px;
+  height: 30px;
+}
+.service-details h6 {
+  font-size: 18px;
+  line-height: 21px;
+}
+.service-details p {
+  font-size: 13px;
+  line-height: 16px;
+}
+
+/*========================================================================
+                            Error Page
+=========================================================================*/
+
+.page_404 {
+  padding: 60px 0;
+  background: #fff;
+  font-family: var(--font_body);
+}
+
+.page_404 img {
+  width: 100%;
+}
+
+.four_zero_four_bg {
+  background-image: url("/public/images/Error/error.gif");
+  height: 400px;
+  background-position: center;
+  width: 70%;
+  margin: 0 auto;
+}
+
+.four_zero_four_bg h1 {
+  font-size: 80px;
+}
+
+.four_zero_four_bg h3 {
+  font-size: 80px;
+}
+
+.link_404 {
+  color: #fff !important;
+  padding: 10px 20px;
+  background: #39ac31;
+  margin: 20px 0;
+  display: inline-block;
+}
+.contant_box_404 {
+  margin-top: -50px;
 }

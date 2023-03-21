@@ -24,7 +24,7 @@ export default function Journey() {
           <div className="row">
             <div className="col-12 mt-5">
               <h1>Our Journey / Roadmap</h1>
-              <ul className="events my-5 py-5 ms-0 ms-md-5">
+              <ul className="events my-5 pt-5 ms-0 ms-md-5">
                 <li>
                   <time dateTime="Mar, 2023">Mar, 2023</time>
                   <span>
@@ -81,6 +81,31 @@ export default function Journey() {
                   </span>
                 </li>
               </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="mb-5">
+        <div className="container explore-section">
+          <div className="row">
+            <div className="col-md-6">
+              <h2>
+                Explore what SMC <br /> has to offer.
+                <br /> Join our journey.
+              </h2>
+            </div>
+            <div className="col-md-6 content-vertical-center">
+              <div>
+                <p>
+                  SMC is a once in a lifetime opportunity in technology. Be a part of its journey as a developer,
+                  enthusiast, enterprise partner, or investor. We are excited to take you along as we make breakthrough
+                  after breakthrough.
+                </p>
+                <div className="d-flex">
+                  <button className="smc-btn secondary">Learn More</button>
+                </div>
+              </div>
             </div>
           </div>
         </div>

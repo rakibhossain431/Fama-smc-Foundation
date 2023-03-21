@@ -1,4 +1,5 @@
 import { createBrowserRouter } from "react-router-dom";
+import ErrorPage from "./Components/ErrorPage/ErrorPage";
 import Layout from "./Layout/Layout";
 import Coin from "./Pages/Coin/Coin";
 import Consumers from "./Pages/Consumers/Consumers";
@@ -11,12 +12,14 @@ import Impact from "./Pages/Impact/Impact";
 import Journey from "./Pages/Journey/Journey";
 import Labs from "./Pages/Labs/Labs";
 import Nft from "./Pages/Nft/Nft";
+import Partners from "./Pages/Partners/Partners";
 import SMCWallet from "./Pages/SMCWallet/SMCWallet";
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <Layout />,
+    errorElement: <ErrorPage />,
     children: [
       {
         path: "",
@@ -25,6 +28,10 @@ const router = createBrowserRouter([
       {
         path: "consumers",
         element: <Consumers />,
+      },
+      {
+        path: "partners",
+        element: <Partners />,
       },
       {
         path: "coin",

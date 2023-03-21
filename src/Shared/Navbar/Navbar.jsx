@@ -60,6 +60,11 @@ const Navbar = () => {
                     Developers
                   </NavLink>
                 </li>
+                <li>
+                  <NavLink className="dropdown-item" to="/partners">
+                    Partners
+                  </NavLink>
+                </li>
               </ul>
             </li>
             <li className="nav-item dropdown">
@@ -159,34 +164,53 @@ const Navbar = () => {
             </div>
             <ul className="mainmenu">
               <li className="nav-item">
-                <a className="scroll" href="index.html">
+                <a className="scroll" href="#">
                   Discover SMC
                 </a>
                 <ul className="sub-menu">
                   <li>
-                    <a className="sub-menu-item" href="#">
+                    <NavLink
+                      className="sub-menu-item"
+                      to="/consumers"
+                      className={({ isActive }) => (isActive ? "sub-menu-item active" : "sub-menu-item")}
+                    >
                       Consumers
-                    </a>
+                    </NavLink>
                   </li>
                   <li>
-                    <a className="sub-menu-item" href="#">
+                    <NavLink
+                      className="sub-menu-item"
+                      to="/enterprise"
+                      className={({ isActive }) => (isActive ? "sub-menu-item active" : "sub-menu-item")}
+                    >
                       Enterprise
-                    </a>
+                    </NavLink>
                   </li>
                   <li>
-                    <a className="sub-menu-item" href="#">
+                    <NavLink
+                      className="sub-menu-item"
+                      to="/government"
+                      className={({ isActive }) => (isActive ? "sub-menu-item active" : "sub-menu-item")}
+                    >
                       Governments
-                    </a>
+                    </NavLink>
                   </li>
                   <li>
-                    <a className="sub-menu-item" href="#">
+                    <NavLink
+                      className="sub-menu-item"
+                      to="/developers"
+                      className={({ isActive }) => (isActive ? "sub-menu-item active" : "sub-menu-item")}
+                    >
                       Developers
-                    </a>
+                    </NavLink>
                   </li>
                   <li>
-                    <a className="sub-menu-item" href="#">
+                    <NavLink
+                      to="/partners"
+                      className={({ isActive }) => (isActive ? "sub-menu-item active" : "sub-menu-item")}
+                    >
                       Partners
-                    </a>
+                    </NavLink>
                   </li>
                 </ul>
               </li>
@@ -196,29 +220,28 @@ const Navbar = () => {
                 </a>
                 <ul className="sub-menu">
                   <li>
-                    <a className="sub-menu-item" href="#">
-                      Consumers
-                    </a>
+                    <NavLink
+                      className={({ isActive }) => (isActive ? "sub-menu-item active" : "sub-menu-item")}
+                      to="/nft"
+                    >
+                      SMC NFT
+                    </NavLink>
                   </li>
                   <li>
-                    <a className="sub-menu-item" href="#">
-                      Enterprise
-                    </a>
+                    <NavLink
+                      className={({ isActive }) => (isActive ? "sub-menu-item active" : "sub-menu-item")}
+                      to="/wallet"
+                    >
+                      SMC Wallet
+                    </NavLink>
                   </li>
                   <li>
-                    <a className="sub-menu-item" href="#">
-                      Governments
-                    </a>
-                  </li>
-                  <li>
-                    <a className="sub-menu-item" href="#">
-                      Developers
-                    </a>
-                  </li>
-                  <li>
-                    <a className="sub-menu-item" href="#">
-                      Partners
-                    </a>
+                    <NavLink
+                      className={({ isActive }) => (isActive ? "sub-menu-item active" : "sub-menu-item")}
+                      to="/coin"
+                    >
+                      SMC Coin
+                    </NavLink>
                   </li>
                 </ul>
               </li>
@@ -228,29 +251,28 @@ const Navbar = () => {
                 </a>
                 <ul className="sub-menu">
                   <li>
-                    <a className="sub-menu-item" href="#">
-                      Consumers
-                    </a>
+                    <NavLink
+                      className={({ isActive }) => (isActive ? "sub-menu-item active" : "sub-menu-item")}
+                      to="/lab"
+                    >
+                      About Us
+                    </NavLink>
                   </li>
                   <li>
-                    <a className="sub-menu-item" href="#">
-                      Enterprise
-                    </a>
+                    <NavLink
+                      className={({ isActive }) => (isActive ? "sub-menu-item active" : "sub-menu-item")}
+                      to="/journey"
+                    >
+                      Our Journey
+                    </NavLink>
                   </li>
                   <li>
-                    <a className="sub-menu-item" href="#">
-                      Governments
-                    </a>
-                  </li>
-                  <li>
-                    <a className="sub-menu-item" href="#">
-                      Developers
-                    </a>
-                  </li>
-                  <li>
-                    <a className="sub-menu-item" href="#">
-                      Partners
-                    </a>
+                    <NavLink
+                      className={({ isActive }) => (isActive ? "sub-menu-item active" : "sub-menu-item")}
+                      to="/impact"
+                    >
+                      Impact
+                    </NavLink>
                   </li>
                 </ul>
               </li>
@@ -266,9 +288,9 @@ const Navbar = () => {
               </li>
             </ul>
             <div className="smc-mobile-btn">
-              <a href="#" className="primary">
-                Get Involved
-              </a>
+              <Link to="/get-in-touch" className="primary">
+                Get in Touch
+              </Link>
             </div>
           </nav>
         </nav>
