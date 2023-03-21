@@ -5,7 +5,7 @@ import WhitePaper from "../../Components/WhitePaper/WhitePaper";
 function Government() {
   return (
     <>
-      <section className="banner banner-4">
+      <section className="banner banner_mix">
         <div className="container">
           <div className="row align-items-center">
             <div className="col-lg-12">

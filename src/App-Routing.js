@@ -13,6 +13,7 @@ import Journey from "./Pages/Journey/Journey";
 import Labs from "./Pages/Labs/Labs";
 import Nft from "./Pages/Nft/Nft";
 import Partners from "./Pages/Partners/Partners";
+import Relations from "./Pages/Relations/Relations";
 import SMCWallet from "./Pages/SMCWallet/SMCWallet";
 
 const router = createBrowserRouter([
@@ -58,10 +59,6 @@ const router = createBrowserRouter([
         element: <Enterprise />,
       },
       {
-        path: "enterprise",
-        element: <Enterprise />,
-      },
-      {
         path: "lab",
         element: <Labs />,
       },
@@ -73,11 +70,19 @@ const router = createBrowserRouter([
         path: "impact",
         element: <Impact />,
       },
+      {
+        path: "relation",
+        element: <Relations />,
+      },
+      {
+        path: "investor-relations",
+        element: <Relations />,
+      },
+      {
+        path: "get-in-touch",
+        element: <GetInTouch />,
+      },
     ],
-  },
-  {
-    path: "get-in-touch",
-    element: <GetInTouch />,
   },
 ]);
 

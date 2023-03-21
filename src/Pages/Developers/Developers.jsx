@@ -1,10 +1,11 @@
 import React from "react";
 import DevelopersCard from "../../Components/DevelopersCard/DevelopersCard";
+import DevelopersResources from "../../Components/DevelopersResources/DevelopersResources";
 
 function Developers() {
   return (
     <>
-      <section class="banner banner-4">
+      <section class="banner banner_mix">
         <div class="container">
           <div class="row align-items-center">
             <div class="col-lg-12">
@@ -25,6 +26,7 @@ function Developers() {
       </section>
 
       <DevelopersCard />
+      <DevelopersResources />
     </>
   );
 }

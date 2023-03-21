@@ -43,7 +43,7 @@ function CoinCard() {
               </p>
             </div>
             <div class="tz-gallery">
-              <div class="row gap-3">
+              <div class="row gap-3 gap-md-0">
                 <div class="col-sm-12 col-md-4">
                   <a class="lightbox">
                     <img className="w-100" src="./images/Gallery/img (1).png" alt="logo" />

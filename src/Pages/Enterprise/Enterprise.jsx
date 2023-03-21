@@ -5,7 +5,7 @@ import WhitePaper from "../../Components/WhitePaper/WhitePaper";
 function Enterprise() {
   return (
     <>
-      <section class="banner banner-4">
+      <section class="banner banner_mix">
         <div class="container">
           <div class="row align-items-center">
             <div class="col-lg-12">

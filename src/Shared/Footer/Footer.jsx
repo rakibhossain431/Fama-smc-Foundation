@@ -47,7 +47,7 @@ const Footer = () => {
         </div>
         <div className="footerMenu mb-5">
           <div className="row">
-            <div className="footerLogo col-12 col-sm-6 col-md-6 col-lg-3  order-2 order-lg-1 pb-5">
+            <div className="footerLogo col-6 col-sm-6 col-md-6 col-lg-3 m-auto  order-2 order-lg-1 pb-5">
               <a href="#">
                 <img src="./images/FooterIcon.png" alt="" />
               </a>
@@ -62,16 +62,25 @@ const Footer = () => {
             </div>
             <div className="footerNavMenu col-12 col-lg-9 order-1 order-lg-2 pb-md-5">
               <div className="row">
-                <div className="footerMenuList col-12 col-sm-6 col-md-6 col-lg-3">
+                <div className="footerMenuList col-6 col-sm-6 col-md-6 col-lg-3">
                   <h6 className="footerHeder">Discover SMC</h6>
+                  <li>
+                    <Link to="/consumers">Consumers</Link>
+                  </li>
                   <li>
                     <Link to="/enterprise">Enterprise</Link>
                   </li>
                   <li>
                     <Link to="/government">Governments</Link>
                   </li>
+                  <li>
+                    <Link to="/developers">Developers</Link>
+                  </li>
+                  <li>
+                    <Link to="/partners">Partners</Link>
+                  </li>
                 </div>
-                <div className="footerMenuList col-12 col-sm-6 col-md-6 col-lg-3">
+                <div className="footerMenuList col-6 col-sm-6 col-md-6 col-lg-3">
                   <h6 className="footerHeder">SMC Solutions</h6>
                   <li>
                     <Link to="/nft">SMC NFT</Link>
@@ -83,13 +92,16 @@ const Footer = () => {
                     <Link to="/coin">SMC Coin</Link>
                   </li>
                 </div>
-                <div className="footerMenuList col-12 col-sm-6 col-md-6 col-lg-3">
+                <div className="footerMenuList col-6 col-sm-6 col-md-6 col-lg-3">
                   <h6 className="footerHeder">About SMC Labs</h6>
                   <li>
                     <Link to="/lab">About Us</Link>
                   </li>
+                  <li>
+                    <Link to="/journey">Our Journey</Link>
+                  </li>
                 </div>
-                <div className="footerMenuList col-12 col-sm-6 col-md-6 col-lg-3">
+                <div className="footerMenuList col-6 col-sm-6 col-md-6 col-lg-3">
                   <h6 className="footerHeder">Help Center</h6>
                   <li>
                     <h6 className="footerHeder">Careers</h6>

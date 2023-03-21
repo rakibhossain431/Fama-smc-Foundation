@@ -10,7 +10,7 @@ export default function Consumers() {
             <div className="col-lg-12">
               <div className="banner-content">
                 <div className="entry-content">
-                  <h1 className="entry-title">
+                  <h1 className="entry-title pt-5 mt-5 pt-md-0">
                     The Power of Blockchain <br /> in Everyday Life
                   </h1>
                   <p className="entry-subtitle">
@@ -27,7 +27,7 @@ export default function Consumers() {
       <section>
         <div className="governments">
           <div className="container">
-            <h1 className="consumer-m-title ps-0">What is SMC and How Can It Change Your World? </h1>
+            <h1 className="consumer-m-title ps-0">What is SMC and How Can It Change Your World?</h1>
             <div className="row">
               <div className="col-12 col-md-6 consumer-img d-none d-md-block">
                 <img src="./images/Consumer/w-is-smc.png" alt="img" />
@@ -53,12 +53,13 @@ export default function Consumers() {
       <section>
         <div className="consumer consumer-bg">
           <div className="container">
+            <h1 className="consumer-m-title ps-0">Journey To Metaverse, NFT, Web 3.0 and Beyond</h1>
             <div className="row">
               <div className="col-12 col-md-6 content-vertical-center">
                 <div>
-                  <h1>Journey To Metaverse, NFT, Web 3.0 and Beyond</h1>
+                  <h1 className="d-none d-md-block">Journey To Metaverse, NFT, Web 3.0 and Beyond</h1>
                   <div className="consumer-img d-block d-md-none">
-                    <img src="./images/Consumer/metaverse.png" alt="img" />
+                    <img src="./images/Consumer/w-is-smc.png" alt="img" />
                   </div>
                   <p className="mt-4 mt-md-0">
                     Due to the scalability and reliability of SMC, our blockchain technology will accelerate the
@@ -83,7 +84,7 @@ export default function Consumers() {
               <div className="col-12 col-md-6 consumer-img">
                 <img src="./images/Consumer/payment.png" alt="img" />
               </div>
-              <div className="col-12 col-md-6">
+              <div className="col-12 col-md-6 content-vertical-center">
                 <div>
                   <h1 className="d-none d-md-block">Blockchain for Consumers</h1>
                   <p className="mt-4 mt-md-0">
@@ -98,11 +99,10 @@ export default function Consumers() {
 
       <section className="smc-wallet-section">
         <div className="container">
-          <h1 className="consumer-m-title ps-0">Meet the SMC Wallet </h1>
           <div className="row align-items-center">
             <div className="col-12 col-lg-6">
               <div className="my-5 my-lg-0">
-                <h1 className="d-none d-md-block">Meet the SMC Wallet</h1>
+                <h1 className="smc-wallet-title">Meet the SMC Wallet</h1>
                 <p className="mt-4 mt-md-0">We have designed a unique digital wallet.</p>
                 <div className="d-block d-lg-none smc-wallet-poster text-center text-lg-end">
                   <img src="./images/Consumer/smc-wallet.png" alt="smc wallet" />

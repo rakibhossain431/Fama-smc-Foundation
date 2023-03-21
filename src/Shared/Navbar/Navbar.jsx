@@ -1,11 +1,23 @@
-import React, { useState } from "react";
-import { Link, NavLink } from "react-router-dom";
+import React, { useEffect, useState } from "react";
+import { Link, NavLink, useLocation } from "react-router-dom";
 
 const Navbar = () => {
   const [navbarToggler, setNavbarToggler] = useState(false);
+  const [isSolidNav, setIsSolidNav] = useState(false);
+  const { pathname } = useLocation();
+
+  useEffect(() => {
+    setIsSolidNav(pathname === "/get-in-touch");
+  }, [pathname]);
 
   return (
-    <nav className="navbar navbar-dark navbar-expand-lg smc-nav header1">
+    <nav
+      className={
+        isSolidNav
+          ? "navbar navbar-dark navbar-expand-lg smc-nav header1 solid-nav"
+          : "navbar navbar-dark navbar-expand-lg smc-nav header1"
+      }
+    >
       <div className="container">
         <Link className="navbar-brand" to="/">
           <img src="./images/SMClogo.png" alt="" />
@@ -119,34 +131,25 @@ const Navbar = () => {
                   </NavLink>
                 </li>
                 <li>
+                  <NavLink className="dropdown-item" to="/relation">
+                    SMC Relation
+                  </NavLink>
+                </li>
+                <li>
                   <NavLink className="dropdown-item" to="/impact">
                     Impact
                   </NavLink>
                 </li>
               </ul>
             </li>
-            {/* <li className="nav-item dropdown">
-              <a
-                className="nav-link dropdown-toggle"
-                href="#"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-                Help Center
-                <i className="fa fa-chevron-down ms-2"></i>
-              </a>
-              <ul className="dropdown-menu">
-                <li>
-                  <a className="dropdown-item" href="#">
-                    Careers
-                  </a>
-                </li>
-              </ul>
-            </li> */}
+            <li className="nav-item dropdown">
+              <NavLink className="nav-link" to="/investor-relations">
+                Investor Relations
+              </NavLink>
+            </li>
           </ul>
           <Link to="/get-in-touch">
-            <button className="smc-nav-btn primary">Get In Touch</button>
+            <button className="smc-nav-btn bg-ore-btn primary">Get In Touch</button>
           </Link>
         </div>
 
@@ -264,6 +267,14 @@ const Navbar = () => {
                       to="/journey"
                     >
                       Our Journey
+                    </NavLink>
+                  </li>
+                  <li>
+                    <NavLink
+                      className={({ isActive }) => (isActive ? "sub-menu-item active" : "sub-menu-item")}
+                      to="/relation"
+                    >
+                      SMC Relation
                     </NavLink>
                   </li>
                   <li>
